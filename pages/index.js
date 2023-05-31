@@ -5,8 +5,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Keith🎮Game Developer</title>
+        <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
       </Head>
 
       <main>
