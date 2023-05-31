@@ -1,5 +1,7 @@
+import './globals.css'
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import './globals.css'
 import favicon_short from '../public/icons/favicon.ico'
 import favicon_apple_touch from '../public/icons/apple-touch-icon.png'
 import favicon_32 from '../public/icons/favicon-32x32.png'
