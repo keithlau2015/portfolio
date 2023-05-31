@@ -115,7 +115,6 @@ export default function Home() {
         }
         * {
           box-sizing: border-box;
-          cursor: url(/public/cursor/cursor.png);
         }
       `}</style>
     </div>
