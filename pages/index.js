@@ -1,15 +1,19 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import favicon_short from '../public/icons/favicon.ico'
+import favicon_apple_touch from '../public/icons/apple-touch-icon.png'
+import favicon_32 from '../public/icons/favicon-32x32.png'
+import favicon_16 from '../public/icons/favicon-16x16.png'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Keith🎮Game Developer</title>
-        <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
+      <title>Keith🎮Game Developer</title>
+        <link rel="shortcut icon" href={favicon_short.src} type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href={favicon_apple_touch.src}/>
+        <link rel="icon" type="image/png" sizes="32x32" href={favicon_32.src}/>
+        <link rel="icon" type="image/png" sizes="16x16" href={favicon_16.src}/>
       </Head>
 
       <main>
