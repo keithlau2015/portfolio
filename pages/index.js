@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import globalcss from '../styles/globals.css';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import favicon_short from '../public/icons/favicon.ico'
