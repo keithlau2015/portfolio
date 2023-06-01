@@ -7,10 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      cursor: {
-        default: 'url(/cursor/cursor.png), default',
-        pointer: 'url(/cursor/cursor.png), pointer',
-      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
