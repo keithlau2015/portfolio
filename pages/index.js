@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import favicon_short from '../public/icons/favicon.ico'
-import favicon_apple_touch from '../public/icons/apple-touch-icon.png'
-import favicon_32 from '../public/icons/favicon-32x32.png'
-import favicon_16 from '../public/icons/favicon-16x16.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,10 +11,10 @@ export default function Home() {
     >
       <Head>
         <title>Keith🎮Game Developer</title>
-        <link rel="shortcut icon" href={favicon_short.src} type="image/x-icon" />
-        <link rel="apple-touch-icon" sizes="180x180" href={favicon_apple_touch.src}/>
-        <link rel="icon" type="image/png" sizes="32x32" href={favicon_32.src}/>
-        <link rel="icon" type="image/png" sizes="16x16" href={favicon_16.src}/>
+        <link rel="shortcut icon" href="https://keithlau2015.github.io/portfolio/icons/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://keithlau2015.github.io/portfolio/icons/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://keithlau2015.github.io/portfolio/icons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://keithlau2015.github.io/portfolio/icons/favicon-16x16.png"/>
       </Head>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
