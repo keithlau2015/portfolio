@@ -26,28 +26,22 @@ export default function Home() {
           class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
           <div class="flex h-full items-center justify-center">
             <div class="px-6 text-center text-white md:px-12">
-              <h1 class="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
+              <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
                 KEITH NULL
                 <br/>
                 <div class="horizontal"><div class="hr"></div><img src="/static/media/diamond.f7a7deb7.png" class="diamond" alt=""/><div class="hr"></div></div>
                 <br/> GAME DEVELOPER
               </h1>
               <button type="button"
-                class="rounded border-2 border-neutral-50 px-[46px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+                class="rounded border-2 border-neutral-50 px-[40px] pt-[14px] pb-[12px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-100 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 hover:scale-110"
                 data-te-ripple-init data-te-ripple-color="light">
-                Get started
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                  </svg>
               </button>
             </div>
           </div>
         </div>
-      </div>
-      <div class="text-center">
-        <img
-          src="https://keithlau2015.github.io/portfolio/icons/android-chrome-512x512.png"
-          class="mx-auto mb-4 w-32 rounded-lg"
-          alt="Avatar" />
-        <h5 class="mb-2 text-xl font-medium leading-tight">Keith</h5>
-        <p class="text-neutral-500 dark:text-neutral-400">Game Developer</p>
       </div>
 
     </main>
