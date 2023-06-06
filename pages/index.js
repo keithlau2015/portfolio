@@ -24,11 +24,7 @@ export default function Home() {
       className={`zflex min-h-screen flex-col items-center ${inter.className}`}
     >
       <Head>
-        <title>Keith🎮Game Developer</title>
-        <link rel="shortcut icon" href="https://keithlau2015.github.io/portfolio/icons/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" sizes="180x180" href="https://keithlau2015.github.io/portfolio/icons/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://keithlau2015.github.io/portfolio/icons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="https://keithlau2015.github.io/portfolio/icons/favicon-16x16.png"/>
+        <title>Keith🎮Game Developer</title>        
         <link rel="apple-touch-icon" sizes="57x57" href="https://keithlau2015.github.io/portfolio/icons/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="https://keithlau2015.github.io/portfolio/icons/apple-icon-60x60.png"/>
         <link rel="apple-touch-icon" sizes="72x72" href="https://keithlau2015.github.io/portfolio/icons/apple-icon-72x72.png"/>
