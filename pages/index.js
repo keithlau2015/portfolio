@@ -32,7 +32,7 @@ export default function Home() {
       {{
         backgroundPosition: '100%',
         backgroundImage: 'https://mdbcdn.b-cdn.net/img/new/slides/146.webp',
-        height: '700px'
+        height: '100vh'
       }}>
         <div
           class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
