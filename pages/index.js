@@ -80,7 +80,7 @@ export default function Home() {
           </h2>
           <div class="lg:gap-xl-12 grid gap-x-6 gap-y-6 md:grid-cols-2 lg:grid-cols-4">
             <div class="mb-12 lg:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/dc.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">Dungeon Challenger</h5>
               <p class="mb-6">Game</p>
               <ul class="mx-auto flex list-inside justify-center">
@@ -108,7 +108,7 @@ export default function Home() {
               </ul>
             </div>
             <div class="mb-12 lg:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/spaceshooter.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">Space Shooter</h5>
               <p class="mb-6">Game</p>
               
@@ -137,7 +137,7 @@ export default function Home() {
               </ul>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/dtg1.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">正版龍虎門</h5>
               <p class="mb-6">Game</p>
               <ul class="mx-auto flex list-inside justify-center">
@@ -165,7 +165,7 @@ export default function Home() {
               </ul>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/fire.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">新火鳳燎原亂世英雄</h5>
               <p class="mb-6">Game</p>
               <ul class="mx-auto flex list-inside justify-center">
@@ -193,7 +193,7 @@ export default function Home() {
               </ul>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/dtg2.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">龍虎門M</h5>
               <p class="mb-6">Game</p>
               <ul class="mx-auto flex list-inside justify-center">
@@ -221,7 +221,7 @@ export default function Home() {
               </ul>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
+              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] transition duration-300 ease-in-out hover:scale-110" src="https://keithlau2015.github.io/portfolio/manningsEvent.png" alt="avatar" />
               <h5 class="mb-4 text-lg font-bold">Mannings 50th Anniversary Event</h5>
               <p class="mb-6">Game</p>
               <ul class="mx-auto flex list-inside justify-center">
