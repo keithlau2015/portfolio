@@ -36,6 +36,7 @@ export default function Home() {
       {{
         backgroundPosition: '100%',
         backgroundImage: 'https://mdbcdn.b-cdn.net/img/new/slides/146.webp',
+        backgroundColor: 'rgb(50,50,50)',
         height: '100vh'
       }}>
         <div
@@ -62,14 +63,14 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <section id="Projects" class="mb-32">
+      <section id="Projects" class="mb-32 relative overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
         <div class="container my-24 mx-auto md:px-6 text-center">
-          <h2 class="mb-12 text-3xl font-bold">
+          <h2 class="mb-12 text-3xl font-bold text-white">
             Projects
           </h2>
-          <div class="lg:gap-xl-12 grid gap-x-6 gap-y-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <div class="mb-12 lg:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]">
+          <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]">
                 <div class="text-base font-bold text-white">Dungeon Challenger</div>
                 <div class="text-xs text-white pb-5">Undergrad Final Year Project</div>
               {/*
@@ -99,70 +100,76 @@ export default function Home() {
             */}
               </div>
             </div>
-            <div class="mb-12 lg:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]">
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]">
                 <div class="text-base font-bold text-white">Space Shooter</div>
-                <div class="text-xs text-white pb-5">solo moblie game project</div>
+                <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]">
                 <div class="text-base font-bold text-white">正版龍虎門</div>
-                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+                <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]">
                 <div class="text-base font-bold text-white">新火鳳燎原亂世英雄</div>
-                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+                <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]">
                 <div class="text-base font-bold text-white">龍虎門M</div>
-                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+                <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]">
                 <div class="text-base font-bold text-white">Mannings 50th Anniversary Event</div>
-                <div class="text-xs text-white pb-5">(Freenlance)AR Game</div>
+                <div class="text-xs text-white pb-5">AR Game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
                 <div class="text-base font-bold text-white">Portfolio</div>
-                <div class="text-xs text-white pb-5">website</div>
+                <div class="text-xs text-white pb-5">Website</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]">
                 <div class="text-base font-bold text-white">Department of Health TACO Internal System</div>
-                <div class="text-xs text-white pb-5">(Karin Group)webapp</div>
+                <div class="text-xs text-white pb-5">Webapp</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-contain bg-no-repeat bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-contain bg-no-repeat bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]">
                 <div class="text-base font-bold text-white">Editor Bootloader</div>
-                <div class="text-xs text-white pb-5">unity dev tools</div>
+                <div class="text-xs text-white pb-5">Unity Dev Tools</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]">
                 <div class="text-base font-bold text-white">Bug Report System</div>
-                <div class="text-xs text-white pb-5">utilities</div>
+                <div class="text-xs text-white pb-5">Utilities</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
                 <div class="text-base font-bold text-white">Sky Garden</div>
-                <div class="text-xs text-white pb-5">(Teamed up)On Going Game Project</div>
+                <div class="text-xs text-white pb-5">On Going Game Project</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
                 <div class="text-base font-bold text-white">Druid</div>
-                <div class="text-xs text-white pb-5">(Solo)On Going Game Project</div>
+                <div class="text-xs text-white pb-5">On Going Game Project</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-slate-300/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
+                <div class="text-base font-bold text-white">C# TCP/UDP Server</div>
+                <div class="text-xs text-white pb-5">Game Server</div>
               </div>
             </div>
           </div>
