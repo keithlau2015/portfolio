@@ -67,7 +67,7 @@ export default function Home() {
           <h2 class="mb-12 text-3xl font-bold">
             Projects
           </h2>
-          <div class="lg:gap-xl-12 grid gap-x-6 gap-y-6 md:grid-cols-2 lg:grid-cols-4">
+          <div class="lg:gap-xl-12 grid gap-x-6 gap-y-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="mb-12 lg:mb-0">
               <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]">
                 <div class="text-base font-bold text-white">Dungeon Challenger</div>
@@ -151,6 +151,18 @@ export default function Home() {
               <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]">
                 <div class="text-base font-bold text-white">Bug Report System</div>
                 <div class="text-xs text-white pb-5">utilities</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
+                <div class="text-base font-bold text-white">Sky Garden</div>
+                <div class="text-xs text-white pb-5">(Teamed up)On Going Game Project</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]">
+                <div class="text-base font-bold text-white">Druid</div>
+                <div class="text-xs text-white pb-5">(Solo)On Going Game Project</div>
               </div>
             </div>
           </div>
