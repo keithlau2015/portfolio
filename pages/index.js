@@ -62,16 +62,16 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <div class="container my-24 mx-auto md:px-6">
-        <section id="Projects" class="mb-32 text-center">
+      <section id="Projects" class="mb-32">
+        <div class="container my-24 mx-auto md:px-6 text-center">
           <h2 class="mb-12 text-3xl font-bold">
             Projects
           </h2>
           <div class="lg:gap-xl-12 grid gap-x-6 gap-y-6 md:grid-cols-2 lg:grid-cols-4">
             <div class="mb-12 lg:mb-0">
-              <div class="mx-auto rounded-lg shadow-lg w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0)80%,rgba(0,0,0,0.8)20%), url('https://keithlau2015.github.io/portfolio/dc.png')]">
-              <div class="text-lg font-bold text-white">Dungeon Challenger</div>
-              <div class="text-xs text-white">Dungeon Challenger</div>
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]">
+                <div class="text-base font-bold text-white">Dungeon Challenger</div>
+                <div class="text-xs text-white pb-5">Undergrad Final Year Project</div>
               {/*
               <ul class="mx-auto flex list-inside justify-center">
                 <a href="#!" class="px-2">
@@ -100,43 +100,62 @@ export default function Home() {
               </div>
             </div>
             <div class="mb-12 lg:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://keithlau2015.github.io/portfolio/spaceshooter.png" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">Space Shooter</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]">
+                <div class="text-base font-bold text-white">Space Shooter</div>
+                <div class="text-xs text-white pb-5">solo moblie game project</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://keithlau2015.github.io/portfolio/dtg1.png" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">正版龍虎門</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]">
+                <div class="text-base font-bold text-white">正版龍虎門</div>
+                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://keithlau2015.github.io/portfolio/fire.png" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">新火鳳燎原亂世英雄</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]">
+                <div class="text-base font-bold text-white">新火鳳燎原亂世英雄</div>
+                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://keithlau2015.github.io/portfolio/dtg2.png" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">龍虎門M</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]">
+                <div class="text-base font-bold text-white">龍虎門M</div>
+                <div class="text-xs text-white pb-5">(Gameone Group Limited)moblie game</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://keithlau2015.github.io/portfolio/manningsEvent.png" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">Mannings 50th Anniversary Event</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]">
+                <div class="text-base font-bold text-white">Mannings 50th Anniversary Event</div>
+                <div class="text-xs text-white pb-5">(Freenlance)AR Game</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">Portfolio</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]">
+                <div class="text-base font-bold text-white">Portfolio</div>
+                <div class="text-xs text-white pb-5">website</div>
+              </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <img class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[200px] h-[200px] transition duration-300 ease-in-out hover:scale-110 object-cover" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
-              <h5 class="mb-4 text-lg font-bold">Department of Health TACO Internal System</h5>
-
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]">
+                <div class="text-base font-bold text-white">Department of Health TACO Internal System</div>
+                <div class="text-xs text-white pb-5">(Karin Group)webapp</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-contain bg-no-repeat bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]">
+                <div class="text-base font-bold text-white">Editor Bootloader</div>
+                <div class="text-xs text-white pb-5">unity dev tools</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg shadow-lg w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]">
+                <div class="text-base font-bold text-white">Bug Report System</div>
+                <div class="text-xs text-white pb-5">utilities</div>
+              </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
   )
 }
