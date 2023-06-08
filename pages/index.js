@@ -170,7 +170,7 @@ export default function Home() {
                 hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]
               ">
                 <div class="text-base font-bold text-white">Bug Report System</div>
-                <div class="text-xs text-white pb-5">Utilities</div>
+                <div class="text-xs text-white pb-5">Unity Utilities</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="Milestone" class="mb-32 relative overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
+      <section id="Milestone" class="relative overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
         <div class="container my-24 mx-auto md:px-6">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
             Milestone
@@ -239,6 +239,50 @@ export default function Home() {
                 <p class="text-base font-normal text-gray-500">Innovative Information and Technology Department</p>
             </li>
           </ol>
+        </div>
+      </section>
+      <section id="Skills" class="relative overflow-hidden bg-neutral-200">
+        <div class="container my-24 mx-auto md:px-6 text-center">
+          <h2 class="mb-12 text-3xl font-bold">
+            Skill Set
+          </h2>
+          <ul class="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400">
+            <li class="flex items-center space-x-3">
+              <span>Unity</span>
+              <br/>
+              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span>C#</span>
+              <br/>
+              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span>Java</span>
+              <br/>
+              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span>Lua</span>
+              <br/>
+              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <span>Python</span>
+              <br/>
+              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
+              </div>
+            </li>
+        </ul>          
         </div>
       </section>
     </main>
