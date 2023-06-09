@@ -1,24 +1,33 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCode,
+  faGlobe,
+  faPalette,
+  faRulerCombined,  
+  faBug,
+} from "@fortawesome/free-solid-svg-icons";
 
 const inter = Inter({ subsets: ['latin'] })
 
-const scroll2El = elID => {
-  window.scrollTo({
-    top: document.getElementById(elID).offsetTop - 60,
-    behavior: 'smooth',
-  });
-};
-
-const onBtnClick = (e) => {
-  e.preventDefault();
-  const goto = e.target.getAttribute('goto');
-  setTimeout(() => {
-    scroll2El(goto);
-  }, 100);
-}
-
 export default function Home() {
+
+  const scroll2El = elID => {
+    window.scrollTo({
+      top: document.getElementById(elID).offsetTop - 60,
+      behavior: 'smooth',
+    });
+  };
+  
+  const onBtnClick = (e) => {
+    e.preventDefault();
+    const goto = e.target.getAttribute('goto');
+    setTimeout(() => {
+      scroll2El(goto);
+    }, 100);
+  }
+
   return (
     <main
       className={`zflex min-h-screen flex-col items-center ${inter.className}`}
@@ -41,8 +50,7 @@ export default function Home() {
       }}>
         <div
           class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
-          <div class="flex h-full items-center justify-center">
-            
+          <div class="flex h-full items-center justify-center">            
             <div class="px-6 text-center text-white md:px-12">
               <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
                 KEITH NULL
@@ -69,9 +77,73 @@ export default function Home() {
           </h2>
           <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/80 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
+              <div class="group grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/80 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
                 hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
               ">
+                {/* 
+                <span class="absolute lg:left-full md:top-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">
+                  <div class="text-base font-bold">Dungeon Challenger</div>
+                  <div class="my-1 container overflow-hidden bg-fixed bg-slate-900">
+                    <div class="mb-2 divide-y-2 divide-slate-700">
+                      <div class="my-1 text-slate-300">Category</div>
+                      <div class=""></div>
+                    </div>
+                    <ul class="mb-1 mx-auto flex list-inside justify-center">
+                      <a href="#!" class="px-2">
+                        <FontAwesomeIcon icon={faCode} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
+                      </a>
+                      <a href="#!" class="px-2">
+                        <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(51,65,85)'}}/>
+                      </a>
+                      <a href="#!" class="px-2">
+                        <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
+                      </a>
+                      <a href="#!" class="px-2">
+                        <FontAwesomeIcon icon={faRulerCombined} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
+                      </a>
+                      <a href="#!" class="px-2">
+                        <FontAwesomeIcon icon={faBug} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
+                      </a>
+                    </ul>
+                    <div class="ml-2 mt-2 flex justify-start text-[12px] text-slate-400">
+                      Gain <FontAwesomeIcon icon={faCode} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from C#
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from Shader
+                    </div>
+                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
+                      Gain <FontAwesomeIcon icon={faPalette} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from Blender(in game 3D Model)
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from Photoshop(Textures, UI)
+                    </div>
+                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
+                      Gain <FontAwesomeIcon icon={faRulerCombined} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from game hud
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from game level design
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from creating game lore
+                    </div>
+                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
+                      Gain <FontAwesomeIcon icon={faBug} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
+                    </div>
+                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
+                      from my buggy game
+                    </div>
+                  </div>
+                </span>
+                */}
                 <div class="text-base font-bold text-white">Dungeon Challenger</div>
                 <div class="text-xs text-white pb-5">Undergrad Final Year Project</div>
               {/*
@@ -527,6 +599,17 @@ export default function Home() {
                   id="p01a"
                   max="100"
                   value="45"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">Premiere Pro</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="25"
                   className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
                   >
                   </progress>                    
