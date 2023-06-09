@@ -247,11 +247,27 @@ export default function Home() {
             Skill Set
           </h2>
           <div class="overflow-hidden text-center bg-white rounded shadow-md text-slate-500 shadow-slate-200">
-            <figure class="p-6 pb-0 self-center">
-              <img class="object-contain h-25 w-25" src="https://keithlau2015.github.io/portfolio/programming.png"/>
+            <figure class="p-6 pb-0">
+              <img class="object-contain h-10 w-10  mx-auto" src="https://keithlau2015.github.io/portfolio/programming.png"/>
+              <h5 class="text-base font-bold">Programming</h5>
             </figure>
             <div class="p-6">
-              <p></p>
+              <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                  <figure class="p-6 pb-0">
+                    <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-programming-language-32.png"/>
+                    <h5 class="text-base font-bold text-white">Language</h5>
+                  </figure>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="40"
+                  className="my-10 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-emerald-500 [&::-moz-progress-bar]:bg-emerald-500"
+                  >
+                  </progress>
+                </div>
+              </div>
             </div>
           </div>
         </div>
