@@ -259,13 +259,13 @@ export default function Home() {
                     <h5 class="text-base font-bold text-white">Language</h5>
                   </figure>
                   <div class="flex items-center justify-center">
-                    C#
+                    <div class="mr-3 text-amber-300">C#</div>
                     <progress
                     aria-label="loading 25%"
                     id="p01a"
                     max="100"
                     value="40"
-                    className="my-10 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-emerald-500 [&::-moz-progress-bar]:bg-emerald-500"
+                    className="my-10 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
                     >
                     </progress>
                   </div>
