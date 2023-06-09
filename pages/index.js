@@ -249,23 +249,106 @@ export default function Home() {
           <div class="overflow-hidden text-center bg-white rounded shadow-md text-slate-500 shadow-slate-200">
             <figure class="p-6 pb-0 flex items-center justify-center">
               <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/programming.png"/>
-              <h5 class="text-base font-bold">Programming</h5>
+              <h5 class="text-base font-bold ml-3">Programming</h5>
             </figure>
             <div class="p-6">
-              <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                <div class="overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
-                  <figure class="p-6 pb-0">
+              <div class="grid justify-items-center gap-x-3 gap-y-3 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                  <figure class="p-6">
                     <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-programming-language-48.png"/>
-                    <h5 class="text-base font-bold text-white">Language</h5>
+                    <h5 class="text-base font-bold text-amber-300">Language</h5>
                   </figure>
-                  <div class="flex items-center justify-center">
-                    <div class="mr-3 text-amber-300">C#</div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">C#</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="60"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">JAVA</div>
                     <progress
                     aria-label="loading 25%"
                     id="p01a"
                     max="100"
                     value="40"
-                    className="my-10 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">LUA</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="50"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">PYTHON</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="30"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">JS</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="25"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                </div>
+                <div class="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                  <figure class="p-6">
+                    <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-database-50.png"/>
+                    <h5 class="text-base font-bold text-amber-300">Database</h5>
+                  </figure>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">MySQL</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="60"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">MongoDB</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="40"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">MicrosoftSQL</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="30"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
                     >
                     </progress>
                   </div>
