@@ -1,4 +1,4 @@
- import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -69,8 +69,8 @@ export default function Home() {
           </h2>
           <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/80 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
               ">
                 <div class="text-base font-bold text-white">Dungeon Challenger</div>
                 <div class="text-xs text-white pb-5">Undergrad Final Year Project</div>
@@ -102,96 +102,96 @@ export default function Home() {
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]
               ">
                 <div class="text-base font-bold text-white">Space Shooter</div>
                 <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]
               ">
                 <div class="text-base font-bold text-white">正版龍虎門</div>
                 <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]
               ">
                 <div class="text-base font-bold text-white">新火鳳燎原亂世英雄</div>
                 <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]
               ">
                 <div class="text-base font-bold text-white">龍虎門M</div>
                 <div class="text-xs text-white pb-5">Moblie game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]
               ">
                 <div class="text-base font-bold text-white">Mannings 50th Anniversary Event</div>
                 <div class="text-xs text-white pb-5">AR Game</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
               ">
                 <div class="text-base font-bold text-white">Portfolio</div>
                 <div class="text-xs text-white pb-5">Website</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]
               ">
                 <div class="text-base font-bold text-white">Department of Health TACO Internal System</div>
                 <div class="text-xs text-white pb-5">Webapp</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-contain bg-no-repeat bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-contain bg-no-repeat bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')]
               ">
                 <div class="text-base font-bold text-white">Editor Bootloader</div>
                 <div class="text-xs text-white pb-5">Unity Dev Tools</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]
               ">
                 <div class="text-base font-bold text-white">Bug Report System</div>
                 <div class="text-xs text-white pb-5">Unity Utilities</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
               ">
                 <div class="text-base font-bold text-white">Sky Garden</div>
                 <div class="text-xs text-white pb-5">On Going Game Project</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
               ">
                 <div class="text-base font-bold text-white">Druid</div>
                 <div class="text-xs text-white pb-5">On Going Game Project</div>
               </div>
             </div>
             <div class="mb-12 md:mb-0">
-              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-cyan-500/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
-                hover:bg-[linear-gradient(to_bottom,rgba(165,243,252,0.1),rgba(8,51,68,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]
               ">
                 <div class="text-base font-bold text-white">C# TCP/UDP Server</div>
                 <div class="text-xs text-white pb-5">Game Server</div>
@@ -207,32 +207,32 @@ export default function Home() {
           </h2>
           <ol class="relative ml-20 border-l border-gray-200 dark:border-gray-700">                  
             <li class="mb-10 ml-10">            
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-                  <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-amber-300 rounded-full -left-3 ring-8 ring-white">
+                  <svg aria-hidden="true" class="w-3 h-3 text-amber-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                 </span>
-                <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Karin Group<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span></h3>
+                <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Karin Group<span class="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span></h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">12/2022 - 12/2023</time>
                 <p class="mb-4 text-base font-normal text-gray-500">Analyst Programmer</p>
                 {/* <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>*/}
             </li>
             <li class="mb-10 ml-10">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-amber-300 rounded-full -left-3 ring-8 ring-white">
+                    <svg aria-hidden="true" class="w-3 h-3 text-amber-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                 </span>
                 <h3 class="mb-1 text-lg font-semibold text-white">Dream Global Entertainment Limited</h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">07/2020 - 09/2022</time>
                 <p class="text-base font-normal text-gray-500">Cocos Game Development Engineer</p>
             </li><li class="mb-10 ml-10">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-amber-300 rounded-full -left-3 ring-8 ring-white">
+                    <svg aria-hidden="true" class="w-3 h-3 text-amber-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                 </span>
                 <h3 class="mb-1 text-lg font-semibold text-white">Gameone Group Limited</h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">06/2020 - 07/2022</time>
                 <p class="text-base font-normal text-gray-500">Senior Programmer</p>
             </li>
             <li class="ml-10">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
-                    <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-amber-300 rounded-full -left-3 ring-8 ring-white">
+                    <svg aria-hidden="true" class="w-3 h-3 text-amber-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                 </span>
                 <h3 class="mb-1 text-lg font-semibold text-white">Graduate from Tamkang University</h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400">09/2016 - 06/2020</time>
@@ -246,43 +246,14 @@ export default function Home() {
           <h2 class="mb-12 text-3xl font-bold">
             Skill Set
           </h2>
-          <ul class="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400">
-            <li class="flex items-center space-x-3">
-              <span>Unity</span>
-              <br/>
-              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
-                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
-              </div>
-            </li>
-            <li class="flex items-center space-x-3">
-              <span>C#</span>
-              <br/>
-              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
-                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
-              </div>
-            </li>
-            <li class="flex items-center space-x-3">
-              <span>Java</span>
-              <br/>
-              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
-                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
-              </div>
-            </li>
-            <li class="flex items-center space-x-3">
-              <span>Lua</span>
-              <br/>
-              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
-                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
-              </div>
-            </li>
-            <li class="flex items-center space-x-3">
-              <span>Python</span>
-              <br/>
-              <div class="flex w-full h-4 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
-                <div class="flex flex-col justify-center overflow-hidden bg-blue-500" role="progressbar" style={{width: '25%'}}></div>
-              </div>
-            </li>
-        </ul>          
+          <div class="overflow-hidden text-center bg-white rounded shadow-md text-slate-500 shadow-slate-200">
+            <figure class="p-6 pb-0 self-center">
+              <img class="object-contain h-25 w-25" src="https://keithlau2015.github.io/portfolio/programming.png"/>
+            </figure>
+            <div class="p-6">
+              <p></p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
