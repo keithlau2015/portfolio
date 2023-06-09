@@ -437,24 +437,66 @@ export default function Home() {
               <h5 class="text-base font-bold ml-3">Art</h5>
             </figure>
             <div class="p-6">
-              <div class="grid justify-items-stretch lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
-                <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
-                  <div class="flex items-center justify-between">
-                      <div class="ml-5 mr-3 text-amber-300">Blender</div>
-                      <progress
-                      aria-label="loading 25%"
-                      id="p01a"
-                      max="100"
-                      value="45"
-                      className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
-                      >
-                      </progress>
-                    </div>
+              <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">Blender</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="45"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">Krita</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="15"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>
+                </div>
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">Photoshop</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="30"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>
+                </div>
+              </div>
+            </div>
+            <figure class="p-6 pb-0 flex items-center justify-center">
+              <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-video-editing-24.png"/>
+              <h5 class="text-base font-bold ml-3">Video Editing</h5>
+            </figure>
+            <div class="p-6">
+              <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">After Effect</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="45"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section id="Contact">
+        
       </section>
     </main>
   )
