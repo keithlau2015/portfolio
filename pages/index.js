@@ -197,6 +197,22 @@ export default function Home() {
                 <div class="text-xs text-white pb-5">Game Server</div>
               </div>
             </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')]
+              ">
+                <div class="text-base font-bold text-white">Hello World</div>
+                <div class="text-xs text-white pb-5">3D Model Project</div>
+              </div>
+            </div>
+            <div class="mb-12 md:mb-0">
+              <div class="grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/50 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')]
+                hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')]
+              ">
+                <div class="text-base font-bold text-white">Lowploy Room</div>
+                <div class="text-xs text-white pb-5">3D Model Project</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -252,7 +268,7 @@ export default function Home() {
               <h5 class="text-base font-bold ml-3">Programming</h5>
             </figure>
             <div class="p-6">
-              <div class="grid justify-items-center gap-x-3 gap-y-3 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <div class="grid justify-items-stretch gap-x-3 gap-y-3 lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                 <div class="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                   <figure class="p-6">
                     <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-programming-language-48.png"/>
@@ -325,7 +341,7 @@ export default function Home() {
                     aria-label="loading 25%"
                     id="p01a"
                     max="100"
-                    value="60"
+                    value="40"
                     className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
                     >
                     </progress>
@@ -336,7 +352,7 @@ export default function Home() {
                     aria-label="loading 25%"
                     id="p01a"
                     max="100"
-                    value="40"
+                    value="30"
                     className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
                     >
                     </progress>
@@ -352,6 +368,88 @@ export default function Home() {
                     >
                     </progress>
                   </div>
+                </div>
+                <div class="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                  <figure class="p-6">
+                    <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-tools-48.png"/>
+                    <h5 class="text-base font-bold text-amber-300">Tooling</h5>
+                  </figure>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">Nodejs</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="45"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">Android Studio</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="15"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">Xcode</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="10"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">Unity</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="75"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div class="ml-5 mr-3 text-amber-300">Unreal</div>
+                    <progress
+                    aria-label="loading 25%"
+                    id="p01a"
+                    max="100"
+                    value="15"
+                    className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                    >
+                    </progress>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figure class="p-6 pb-0 flex items-center justify-center">
+              <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-art-48.png"/>
+              <h5 class="text-base font-bold ml-3">Art</h5>
+            </figure>
+            <div class="p-6">
+              <div class="grid justify-items-stretch lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
+                <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                  <div class="flex items-center justify-between">
+                      <div class="ml-5 mr-3 text-amber-300">Blender</div>
+                      <progress
+                      aria-label="loading 25%"
+                      id="p01a"
+                      max="100"
+                      value="45"
+                      className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                      >
+                      </progress>
+                    </div>
                 </div>
               </div>
             </div>
