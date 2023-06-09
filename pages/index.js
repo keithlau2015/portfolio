@@ -433,6 +433,47 @@ export default function Home() {
               </div>
             </div>
             <figure class="p-6 pb-0 flex items-center justify-center">
+              <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-robot-48.png"/>
+              <h5 class="text-base font-bold ml-3">AI</h5>
+            </figure>
+            <div class="p-6">
+              <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">Stable Diffusion</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="60"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">ChatGPT</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="40"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+                <div class="flex items-center justify-between">
+                  <div class="ml-5 mr-3 text-amber-300">AutoGPT</div>
+                  <progress
+                  aria-label="loading 25%"
+                  id="p01a"
+                  max="100"
+                  value="25"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+              </div>
+            </div>
+            <figure class="p-6 pb-0 flex items-center justify-center">
               <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-art-48.png"/>
               <h5 class="text-base font-bold ml-3">Art</h5>
             </figure>
@@ -474,7 +515,7 @@ export default function Home() {
               </div>
             </div>
             <figure class="p-6 pb-0 flex items-center justify-center">
-              <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-video-editing-24.png"/>
+              <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-video-editing-48.png"/>
               <h5 class="text-base font-bold ml-3">Video Editing</h5>
             </figure>
             <div class="p-6">
