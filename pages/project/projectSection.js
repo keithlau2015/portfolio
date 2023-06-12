@@ -8,7 +8,7 @@ export function ProjectSection() {
         {type:["Game", "Server"], subType:["Moblie"], owner:"Gameone Group Limited", title:"新火鳳燎原亂世英雄", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/fire.png')"},
         {type:["Game", "Server"], subType:["Moblie"], owner:"Gameone Group Limited", title:"龍虎門M", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/dtg2.png')"},
         {type:["Game"], subType:["AR"], owner:"CIMPTech", title:"Mannings 50th Anniversary Event", description:"AR Game", bg:"url('https://keithlau2015.github.io/portfolio/manningsEvent.png')"},
-        {type:["Application", "Website"], owner:"Karin Group", title:"Leisure and Cultural Services Department Electronic Collection Recording System", description:"Application", bg:"url('https://keithlau2015.github.io/portfolio/lcsd.png')"},
+        {type:["Application", "Website"], owner:"Karin Group", title:"Leisure and Cultural Services Department Electronic Collection Recording System", description:"Application", bg:"url('https://keithlau2015.github.io/portfolio/logolcsd.png')"},
         {type:["Application", "Website"], owner:"Karin Group", title:"Department of Health TACO Information System", description:"Application", bg:"url('https://keithlau2015.github.io/portfolio/DH_logo.png')"},
         {type:["DevTools"], owner:"Personal", title:"Editor Bootloader", description:"Unity Dev Tools", bg:"url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')"},
         {type:["DevTools"], owner:"Personal", title:"Bug Report System", description:"Unity Utilities", bg:"url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')"},
