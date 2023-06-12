@@ -25,12 +25,10 @@ export default function Home() {
       className={`zflex min-h-screen flex-col items-center ${inter.className}`}
     >
       <Head>
-        <title>Keith🎮Game Developer</title>        
-        <link rel="icon" type="image/png" href="https://keithlau2015.github.io/portfolio/icons/MyIcon_p_NBG.png"/>
+        <title>Keith🎮Game Developer</title>
         <link rel="apple-touch-icon" sizes="180x180" href="https://keithlau2015.github.io/portfolio/icons/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="https://keithlau2015.github.io/portfolio/icons/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="https://keithlau2015.github.io/portfolio/icons/favicon-16x16.png"/>
-        <link rel="manifest" href="https://keithlau2015.github.io/portfolio/site.webmanifest"/>
       </Head>      
       <section id="Landing">
       <div class="relative overflow-hidden bg-cover bg-no-repeat" style=
