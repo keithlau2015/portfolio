@@ -2,22 +2,22 @@ import {ProjectCard} from './projectCard'
 
 export function ProjectSection() {
     const projects = [
-        {title:"Dungeon Challenger", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/dc.png')"},
-        {title:"Space Shooter", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/spaceshooter.png')"},
-        {title:"正版龍虎門", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/dtg1.png')"},
-        {title:"新火鳳燎原亂世英雄", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/fire.png')"},
-        {title:"龍虎門M", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/dtg2.png')"},
-        {title:"Mannings 50th Anniversary Event", description:"AR Game", bg:"url('https://keithlau2015.github.io/portfolio/manningsEvent.png')"},
-        {title:"Portfolio", description:"Website", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
-        {title:"Department of Health TACO Information System", description:"Webapp", bg:"url('https://keithlau2015.github.io/portfolio/DH_logo.png')"},
-        {title:"Leisure and Cultural Services Department Electronic Collection Recording System", description:"Webapp", bg:"url('https://keithlau2015.github.io/portfolio/LCSD.png')"},
-        {title:"Editor Bootloader", description:"Unity Dev Tools", bg:"url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')"},
-        {title:"Bug Report System", description:"Unity Utilities", bg:"url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')"},
-        {title:"Sky Garden", description:"On Going Game Project", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
-        {title:"Druid", description:"On Going Game Project", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
-        {title:"C# Game Server", description:"Game Server", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
-        {title:"Hello World", description:"3D Model Project", bg:"url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')"},
-        {title:"Lowploy Room", description:"3D Model Project", bg:"url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')"},
+        {type:["Game"], subType:["PC"], owner:"Personal", title:"Dungeon Challenger", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/dc.png')", duty:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can."},
+        {type:["Game"], subType:["Moblie"],  owner:"Personal", title:"Space Shooter", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/spaceshooter.png')", duty:"My first moblie game, also a challenge for myself finished the game within 1 week. A singleplay 3rd person shooter game, player needed to control the spacecraft to fight obstacle, also player able to get reward through watching ads, and unlock more different playstle spacecraft."},
+        {type:["Game", "Server"], subType:["Moblie"], owner:"Gameone Group Limited", title:"正版龍虎門", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/dtg1.png')"},
+        {type:["Game", "Server"], subType:["Moblie"], owner:"Gameone Group Limited", title:"新火鳳燎原亂世英雄", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/fire.png')"},
+        {type:["Game", "Server"], subType:["Moblie"], owner:"Gameone Group Limited", title:"龍虎門M", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/dtg2.png')"},
+        {type:["Game"], subType:["AR"], owner:"CIMPTech", title:"Mannings 50th Anniversary Event", description:"AR Game", bg:"url('https://keithlau2015.github.io/portfolio/manningsEvent.png')"},
+        {type:["Website"], owner:"Personal", title:"Portfolio", description:"Website", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
+        {type:["Application", "Website"], owner:"Karin Group", title:"Department of Health TACO Information System", description:"Webapp", bg:"url('https://keithlau2015.github.io/portfolio/DH_logo.png')"},
+        {type:["Application", "Website"], owner:"Karin Group", title:"Leisure and Cultural Services Department Electronic Collection Recording System", description:"Webapp", bg:"url('https://keithlau2015.github.io/portfolio/LCSD.png')"},
+        {type:["DevTools"], owner:"Personal", title:"Editor Bootloader", description:"Unity Dev Tools", bg:"url('https://opengraph.githubassets.com/732afe252a39fa69e59801230c1d7aa5ca0793af248a50d602a4caa672946ebc/keithlau2015/EditorBootloader')"},
+        {type:["DevTools"], owner:"Personal", title:"Bug Report System", description:"Unity Utilities", bg:"url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')"},
+        {type:["Game"], subType:["PC"], owner:"Personal", title:"Sky Garden", description:"On Going Game Project", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
+        {type:["Game"], subType:["PC", "Moblie"], owner:"Personal", title:"Druid", description:"On Going Game Project", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
+        {type:["Game", "Server"], owner:"Personal", title:"C# Game Server", description:"Game Server", bg:"url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')"},
+        {type:["3D Model"], owner:"Personal", title:"Hello World", description:"3D Model Project", bg:"url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')"},
+        {type:["3D Model"], owner:"Personal", title:"Lowploy Room", description:"3D Model Project", bg:"url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')"},
     ];
 
     
@@ -25,7 +25,15 @@ export function ProjectSection() {
             {
                 projects.map((item,index)=>{
                     return <div className="mb-12 md:mb-0">
-                    <ProjectCard title={item.title} description={item.description} bg={item.bg}/>
+                    <ProjectCard 
+                    title={item.title} 
+                    description={item.description}
+                    bg={item.bg}
+                    owner={item.owner}
+                    type={item.type}
+                    subType={item?.subType}
+                    duty={item.duty}
+                    />
                     </div>
                 })
             }
@@ -42,68 +50,7 @@ export function ProjectSection() {
               <div class="group grid grid-cols-1 gap-1 content-end mx-auto rounded-lg hover:shadow-md hover:shadow-black/80 w-[250px] h-[250px] transition duration-300 ease-in-out hover:scale-110 bg-center bg-cover bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
                 hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]
               ">
-                <span class="absolute lg:left-full md:top-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">
-                  <div class="text-base font-bold">Dungeon Challenger</div>
-                  <div class="my-1 container overflow-hidden bg-fixed bg-slate-900">
-                    <div class="mb-2 divide-y-2 divide-slate-700">
-                      <div class="my-1 text-slate-300">Category</div>
-                      <div class=""></div>
-                    </div>
-                    <ul class="mb-1 mx-auto flex list-inside justify-center">
-                      <a href="#!" class="px-2">
-                        <FontAwesomeIcon icon={faCode} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-                      </a>
-                      <a href="#!" class="px-2">
-                        <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(51,65,85)'}}/>
-                      </a>
-                      <a href="#!" class="px-2">
-                        <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-                      </a>
-                      <a href="#!" class="px-2">
-                        <FontAwesomeIcon icon={faRulerCombined} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-                      </a>
-                      <a href="#!" class="px-2">
-                        <FontAwesomeIcon icon={faBug} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-                      </a>
-                    </ul>
-                    <div class="ml-2 mt-2 flex justify-start text-[12px] text-slate-400">
-                      Gain <FontAwesomeIcon icon={faCode} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from C#
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from Shader
-                    </div>
-                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
-                      Gain <FontAwesomeIcon icon={faPalette} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from Blender(in game 3D Model)
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from Photoshop(Textures, UI)
-                    </div>
-                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
-                      Gain <FontAwesomeIcon icon={faRulerCombined} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from game hud
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from game level design
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from creating game lore
-                    </div>
-                    <div class="ml-2 flex justify-start text-[12px] text-slate-400">
-                      Gain <FontAwesomeIcon icon={faBug} style={{ fontSize: 10, color: 'rgb(51,65,85)'}}/> exp
-                    </div>
-                    <div class="ml-5 flex justify-start text-[10px] text-slate-400">
-                      from my buggy game
-                    </div>
-                  </div>
-                </span>
+                
                 
                 <div class="text-base font-bold text-white">Dungeon Challenger</div>
                 <div class="text-xs text-white pb-5">Undergrad Final Year Project</div>

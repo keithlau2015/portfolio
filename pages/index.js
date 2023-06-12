@@ -1,15 +1,6 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import { ProjectSection } from './projectSection';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCode,
-  faGlobe,
-  faPalette,
-  faRulerCombined,  
-  faBug,
-} from "@fortawesome/free-solid-svg-icons";
-
+import { ProjectSection } from './project/projectSection';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {  
