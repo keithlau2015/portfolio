@@ -11,7 +11,7 @@ import {
   faMobileScreenButton,
 } from "@fortawesome/free-solid-svg-icons";
 
-function ProjectDetailsPopover({owner, type, subType, duty}){
+export function ProjectDetailsPopover({owner, type, subType, duty}){
     return <span class="absolute min-w-[200px] lg:left-full md:left-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>

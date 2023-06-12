@@ -1,6 +1,6 @@
 import {ProjectCard} from './projectCard'
 
-function ProjectSection() {
+export function ProjectSection() {
     const projects = [
         {type:["Game"], subType:["PC"], owner:"Personal", title:"Dungeon Challenger", description:"Undergrad Final Year Project", bg:"url('https://keithlau2015.github.io/portfolio/dc.png')", duty:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can."},
         {type:["Game"], subType:["Moblie"],  owner:"Personal", title:"Space Shooter", description:"Moblie game", bg:"url('https://keithlau2015.github.io/portfolio/spaceshooter.png')", duty:"My first moblie game, also a challenge for myself finished the game within 1 week. A singleplay 3rd person shooter game, player needed to control the spacecraft to fight obstacle, also player able to get reward through watching ads, and unlock more different playstle spacecraft."},

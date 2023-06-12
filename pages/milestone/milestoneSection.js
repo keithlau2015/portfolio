@@ -1,6 +1,6 @@
 import { OneMilestone } from "./oneMilestone";
 
-function MilestoneSection() {
+export function MilestoneSection() {
     const lifeTimeEvents = [
         {eventName:"Karin Group", range:"12/2022 - 12/2023", details:"Analyst Programmer"},
         {eventName:"Dream Global Entertainment Limited", range:"07/2020 - 09/2022", details:"Cocos Game Development Engineer"},
@@ -23,4 +23,5 @@ function MilestoneSection() {
         }
   </ol>);
 }
+
 export default MilestoneSection;
