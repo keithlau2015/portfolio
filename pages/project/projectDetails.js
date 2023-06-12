@@ -22,42 +22,42 @@ export function ProjectDetailsPopover({owner, type, subType, duty}){
         </div>
         <ul class="mb-1 mx-auto flex list-inside justify-center">
             {
-              type.includes("Game") 
+              type?.includes("Game") 
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faGamepad} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
               </a>
             }
             {
-              type.includes("Website") 
+              type?.includes("Website") 
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
               </a>
             }
             {
-              type.includes("3D Model")
+              type?.includes("3D Model")
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
               </a>
             }
             {
-              type.includes("Application")
+              type?.includes("Application")
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faRocket} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
               </a>
             }
             {
-              type.includes("Server")
+              type?.includes("Server")
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faServer} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
               </a>
             }
             {
-              type.includes("DevTools")
+              type?.includes("DevTools")
               &&
               <a href="#!" class="px-2">
                 <FontAwesomeIcon icon={faToolbox} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
