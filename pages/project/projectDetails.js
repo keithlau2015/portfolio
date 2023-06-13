@@ -11,8 +11,8 @@ import {
   faMobileScreenButton,
 } from "@fortawesome/free-solid-svg-icons";
 
-export function ProjectDetailsPopover({owner, type, subType, duty}){
-    return <span class="absolute min-w-[200px] lg:left-full md:left-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">
+export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
+    return <span class={`min-w-[250px] absolute scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100`}>
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>
       <div class="my-1 container overflow-hidden bg-fixed bg-slate-900">
@@ -97,6 +97,80 @@ export function ProjectDetailsPopover({owner, type, subType, duty}){
             <div className="ml-3 my-1 text-left text-slate-300">{duty}</div>
           </div>
         }
+        <ul class="mb-1 mx-auto flex list-inside justify-center">
+            {
+              tech?.includes("C#") 
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/c-sharp-c.svg')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+            {
+              tech?.includes("Java") 
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/java_logo.png')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+            {
+              tech?.includes("Unity")
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/unity.png')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+            {
+              tech?.includes("MySQL")
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/mysql_logo.png')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+            {
+              tech?.includes("LUA")
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/Lua-Logo.svg')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+            {
+              tech?.includes("Python")
+              &&
+              <div className="h-30 w-30 relative">
+                <Image
+                  src="url('https://keithlau2015.github.io/portfolio/Python-logo.svg.png')"
+                  layout="fill" // required
+                  objectFit="cover" // change to suit your needs
+                  className="rounded-full" // just an example
+                />
+              </div>
+            }
+        </ul>
       </div>
     </span>
 }
