@@ -106,7 +106,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("C#") 
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-c-50.png"
                   fill="true"
@@ -117,7 +117,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Java") 
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-java-50.png"
                   fill="true"
@@ -127,7 +127,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Unity")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-unity-48.png"
                   fill="true"
@@ -137,7 +137,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("MySQL")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-mysql-50.png"
                   fill="true"
@@ -147,7 +147,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Lua")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-lua-language-50.png"
                   fill="true"
@@ -157,7 +157,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Python")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-python-50.png"
                   fill="true"
@@ -167,7 +167,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Blender")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-blender-50.png"
                   fill="true"
@@ -177,9 +177,29 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             {
               tech?.includes("Nodejs")
               &&
-              <div className="h-[25px] w-[25px] relative">
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-nodejs-32.png"
+                  fill="true"
+                />
+              </div>
+            }
+            {
+              tech?.includes("Js")
+              &&
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-javascript-50.png"
+                  fill="true"
+                />
+              </div>
+            }
+            {
+              tech?.includes("Tailwind")
+              &&
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
                   fill="true"
                 />
               </div>
