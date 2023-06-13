@@ -10,6 +10,7 @@ import {
   faComputer,
   faMobileScreenButton,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from 'next/image';
 
 export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
     return <span class={`min-w-[250px] absolute scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100`}>
@@ -97,76 +98,89 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
             <div className="ml-3 my-1 text-left text-slate-300">{duty}</div>
           </div>
         }
-        <ul class="mb-1 mx-auto flex list-inside justify-center">
+        <div class="mt-2 divide-y-2 divide-slate-700">
+          <div class=""></div>
+          <div class="mt-2 text-slate-300">Tech</div>
+        </div>
+        <ul class="mb-2 mx-auto flex list-inside justify-center">
             {
               tech?.includes("C#") 
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/c-sharp-c.svg')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-c-50.png"
+                  fill="true"
+                  color="rgb(31, 41, 55)"
                 />
               </div>
             }
             {
               tech?.includes("Java") 
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/java_logo.png')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-java-50.png"
+                  fill="true"
                 />
               </div>
             }
             {
               tech?.includes("Unity")
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/unity.png')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-unity-48.png"
+                  fill="true"
                 />
               </div>
             }
             {
               tech?.includes("MySQL")
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/mysql_logo.png')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-mysql-50.png"
+                  fill="true"
                 />
               </div>
             }
             {
-              tech?.includes("LUA")
+              tech?.includes("Lua")
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/Lua-Logo.svg')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-lua-language-50.png"
+                  fill="true"
                 />
               </div>
             }
             {
               tech?.includes("Python")
               &&
-              <div className="h-30 w-30 relative">
+              <div className="h-[25px] w-[25px] relative">
                 <Image
-                  src="url('https://keithlau2015.github.io/portfolio/Python-logo.svg.png')"
-                  layout="fill" // required
-                  objectFit="cover" // change to suit your needs
-                  className="rounded-full" // just an example
+                  src="https://keithlau2015.github.io/portfolio/icons8-python-50.png"
+                  fill="true"
+                />
+              </div>
+            }
+            {
+              tech?.includes("Blender")
+              &&
+              <div className="h-[25px] w-[25px] relative">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-blender-50.png"
+                  fill="true"
+                />
+              </div>
+            }
+            {
+              tech?.includes("Nodejs")
+              &&
+              <div className="h-[25px] w-[25px] relative">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-nodejs-32.png"
+                  fill="true"
                 />
               </div>
             }
