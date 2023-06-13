@@ -151,7 +151,7 @@ export function ProjectSection({type, owner, tech}) {
       owner:"Personal", 
       itle:"Portfolio", 
       description:"Website", 
-      bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
+      bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
       duty:"A portfolio website for myself. Display or record the skills I learn and used in which jobs.",
       tech:["Nodejs", "Js", "Tailwind"] 
     },
