@@ -13,7 +13,8 @@ import {
 import Image from 'next/image';
 
 export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
-    return <span class={`min-w-[250px] absolute scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100`}>
+
+    return <span class={`min-w-[250px] absolute left-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100`}>
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>
       <div class="my-1 container overflow-hidden bg-fixed bg-slate-900">

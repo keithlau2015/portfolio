@@ -149,7 +149,7 @@ export function ProjectSection({type, owner, tech}) {
     {
       type:["Website"], 
       owner:"Personal", 
-      itle:"Portfolio", 
+      Title:"Portfolio", 
       description:"Website", 
       bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
       duty:"A portfolio website for myself. Display or record the skills I learn and used in which jobs.",
@@ -157,25 +157,37 @@ export function ProjectSection({type, owner, tech}) {
     },
   ];
 
-  return (<>
-  <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-    {             
-      projects.map((item,index)=>{
-        return <div key={item.title} class="mb-12 md:mb-0">
-          <ProjectCard 
-          title={item.title} 
-          description={item.description}
-          bg={item.bg}
-          owner={item.owner}
-          type={item.type}
-          subType={item?.subType}
-          duty={item.duty}
-          tech={item?.tech}
-          />
-        </div>
-      })
-    }
-  </div>
-  </>);
+  const [filteredKey, setFilteredKey] = useState(undefined);
+  const [projectTypeFilter, setProjectTypeFilter] = useState(undefined);
+
+  return (
+    <Flipper flipKey={filteredKey}>
+      <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {    
+         /*        
+          Object.entries(projects).filter(([title, project]) => project.type === projectTypeFilter || projectTypeFilter === undefined).map(([title, project]) => (
+            <Flipped key={utilGetKeyByTitle(title)} flipId={utilGetKeyByTitle(title)}>
+                {(flippedProps) => { return (<WrappedProjectCard flippedProps={flippedProps} props={{ title: title, project: project }} />) }}
+            </Flipped>
+          )) 
+          */
+         projects.map((item,index)=>{
+            return <div key={item.title} class="mb-12 md:mb-0">
+              <ProjectCard 
+              title={item.title} 
+              description={item.description}
+              bg={item.bg}
+              owner={item.owner}
+              type={item.type}
+              subType={item?.subType}
+              duty={item.duty}
+              tech={item?.tech}
+              />
+            </div>
+          })
+        }
+      </div>
+    </Flipper>
+  );
 }
 export default ProjectSection;
