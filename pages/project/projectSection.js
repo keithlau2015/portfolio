@@ -24,7 +24,7 @@ export function ProjectSection() {
     return (<div className="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {
                 projects.map((item,index)=>{
-                    return <div className="mb-12 md:mb-0">
+                    return <div key={item.title} className="mb-12 md:mb-0">
                       <ProjectCard 
                       title={item.title} 
                       description={item.description}

@@ -11,7 +11,7 @@ export function MilestoneSection() {
     return (<ol className="relative ml-20 border-l border-gray-200 dark:border-gray-700">     
         {
             lifeTimeEvents.map((item,index)=>{
-                return <li class="mb-10 ml-10">
+                return <li key={item.eventName} class="mb-10 ml-10">
                 <OneMilestone 
                     eventName={item.eventName}
                     range={item.range}
