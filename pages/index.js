@@ -1,10 +1,12 @@
-import { Inter } from 'next/font/google'
+import { Inter, Play } from 'next/font/google'
 import Head from 'next/head'
-import { ProjectSection } from './components/project/projectSection';
-import { MilestoneSection } from './components/milestone/milestoneSection';
-const inter = Inter({ subsets: ['latin'] })
+import { ProjectSection } from './project/projectSection';
+import { MilestoneSection } from './milestone/milestoneSection';
 
-export default function Home() {  
+const inter = Inter({ subsets: ['latin'] })
+const play = Play({weight:'400',subsets:['cyrillic']})
+
+export default function Home() { 
   const scroll2El = elID => {
     window.scrollTo({
       top: document.getElementById(elID).offsetTop - 60,
@@ -22,7 +24,7 @@ export default function Home() {
 
   return (
     <main
-      class={`zflex min-h-screen flex-col items-center ${inter.className}`}
+      class={`zflex min-h-screen flex-col items-center ${play.className}`}
     >
       <Head>
         <title>Keith🎮Game Developer</title>
