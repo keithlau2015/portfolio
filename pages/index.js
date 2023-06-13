@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import { ProjectSection } from './project/projectSection';
-import { MilestoneSection } from './milestone/milestoneSection';
+import { ProjectSection } from './components/project/projectSection';
+import { MilestoneSection } from './components/milestone/milestoneSection';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {  
