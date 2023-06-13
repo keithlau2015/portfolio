@@ -8,7 +8,7 @@ export function MilestoneSection() {
         {eventName:"Graduate from Tamkang University", range:"09/2016 - 06/2020", details:"Innovative Information and Technology Department"}
     ];
 
-    return (<ol className="relative ml-20 border-l border-gray-200 dark:border-gray-700">     
+    return (<ol class="relative ml-20 border-l border-gray-200 dark:border-gray-700">     
         {
             lifeTimeEvents.map((item,index)=>{
                 return <li key={item.eventName} class="mb-10 ml-10">
