@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export function OneCareer({gotoCB, eventName, range, details, index}) {
    //onClick={gotoCB} goto="Projects" param={`${eventName}`}
    return (<div>
@@ -10,10 +12,12 @@ export function OneCareer({gotoCB, eventName, range, details, index}) {
         <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Current</span>
     }
     <span className="flex items-center justify-center ml-5 w-4 h-4 bg-white rounded-full -left-3 ring-8 ring-white">
-        <Image
-          src="https://keithlau2015.github.io/portfolio/icons8-project-48.png"
-          fill="true"
-        />
+        <div className="h-[10px] w-[10px] relative">
+            <Image
+            src="https://keithlau2015.github.io/portfolio/icons8-project-48.png"
+            fill="true"
+            />
+        </div>
     </span>
     </h3>
     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">{range?range:"00/0000 - 00/0000"}</time>
