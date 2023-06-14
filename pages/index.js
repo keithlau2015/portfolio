@@ -381,15 +381,33 @@ export default function Home() {
             </div>            
           </div>
           <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
-            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[20px] w-[20px] relative mr-1 ml-1">
+            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
-                src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
+                src="https://keithlau2015.github.io/portfolio/icons8-ig-48.png"
                 fill="true"
               />
             </a>
-            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[20px] w-[20px] relative mr-1 ml-1">
+            <a href='https://www.youtube.com/@keithlau7747/videos' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
-                src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
+                src="https://keithlau2015.github.io/portfolio/icons8-youtube-50.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://github.com/keithlau2015' className="h-[30px] w-[30px] relative mr-1 ml-1">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-github-30.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://www.linkedin.com/in/keith-lau-b7379b217/' className="h-[30px] w-[30px] relative mr-1 ml-1">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-linkedin-50.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://keithnull.artstation.com/' className="h-[30px] w-[30px] relative mr-1 ml-1">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-artstation-32.png"
                 fill="true"
               />
             </a>
