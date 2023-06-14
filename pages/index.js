@@ -365,8 +365,29 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="Contact">
-        
+      <section id="Contact" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
+        <div class="container my-24 mx-auto md:px-6">
+          <h2 class="mb-12 text-3xl font-bold text-white text-center">
+            Contact
+          </h2>
+          <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
+            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
+              <div className={` project-tab-bar-tab-text`}>
+                  Phone
+              </div>
+            </div>
+            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
+              <div className={` project-tab-bar-tab-text`}>
+                  Instagram
+              </div>
+            </div>
+            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
+              <div className={` project-tab-bar-tab-text`}>
+                  Email
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   )
