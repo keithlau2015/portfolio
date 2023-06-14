@@ -157,11 +157,10 @@ export function ProjectSection({type, owner, tech}) {
     },
   ];
 
-  const [filteredKey, setFilteredKey] = useState(undefined);
-  const [projectTypeFilter, setProjectTypeFilter] = useState(undefined);
+  //const [filteredKey, setFilteredKey] = useState(undefined);
+  //const [projectTypeFilter, setProjectTypeFilter] = useState(undefined);
 
   return (
-    <Flipper flipKey={filteredKey}>
       <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {    
          /*        
@@ -187,7 +186,7 @@ export function ProjectSection({type, owner, tech}) {
           })
         }
       </div>
-    </Flipper>
+
   );
 }
 export default ProjectSection;
