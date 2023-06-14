@@ -2,6 +2,8 @@ import { Play } from 'next/font/google';
 import Head from 'next/head';
 import { ProjectSection } from './project/projectSection';
 import { MilestoneSection } from './milestone/milestoneSection';
+import Image from 'next/image';
+
 const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() {
@@ -365,8 +367,34 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="Contact">
-        
+      <section id="Contact" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
+        <div class="container my-24 mx-auto md:px-6">
+          <h2 class="mb-12 text-3xl font-bold text-white text-center">
+            Contact
+          </h2>
+          <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
+            <div className="text-amber-300">
+                Phone: +852 53717963
+            </div>
+            <div className="text-amber-300">
+                Email: s101315@gmail.com
+            </div>            
+          </div>
+          <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
+            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[20px] w-[20px] relative mr-1 ml-1">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[20px] w-[20px] relative mr-1 ml-1">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
+                fill="true"
+              />
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   )

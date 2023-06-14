@@ -6,7 +6,7 @@ export function OneMilestone({eventName, range, details, index}) {
     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">{eventName?eventName:"Name"}
     {
         index==0 && 
-        <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
+        <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Current</span>
     }
     </h3>
     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">{range?range:"00/0000 - 00/0000"}</time>
