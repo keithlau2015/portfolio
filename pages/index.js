@@ -1,9 +1,8 @@
-import { Inter, Play } from 'next/font/google'
+import { Inter, Play } from 'next/font/google';
 import Head from 'next/head'
 import { ProjectSection } from './project/projectSection';
 import { MilestoneSection } from './milestone/milestoneSection';
 
-const inter = Inter({ subsets: ['latin'] })
 const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() { 
@@ -62,7 +61,7 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <section id="Projects" class="relative overflow-hidden bg-neutral-200">
+      <section id="Projects" class="relative z-0 overflow-hidden bg-neutral-200">
         <div class="container my-24 mx-auto md:px-6 text-center">
           <h2 class="mb-12 text-3xl font-bold">
             Projects
@@ -70,7 +69,7 @@ export default function Home() {
           <ProjectSection />          
         </div>
       </section>
-      <section id="Milestone" class="relative overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
+      <section id="Milestone" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
         <div class="container my-24 mx-auto md:px-6">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
             Milestone
@@ -78,7 +77,7 @@ export default function Home() {
           <MilestoneSection />
         </div>
       </section>
-      <section id="Skills" class="relative overflow-hidden bg-neutral-200">
+      <section id="Skills" class="relative z-0 overflow-hidden bg-neutral-200">
         <div class="container my-24 mx-auto md:px-6 text-center">
           <h2 class="mb-12 text-3xl font-bold">
             Skill Set

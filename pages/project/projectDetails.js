@@ -13,16 +13,18 @@ import {
 import Image from 'next/image';
 
 export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
-
-    return <span class={`min-w-[250px] absolute left-full scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100`}>
+  
+    return <>
+    <span
+      class={`backdrop-blur-sm min-w-[250px] absolute left-full scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>
-      <div class="my-1 container overflow-hidden bg-fixed bg-slate-900">
+      <div class="my-1 container overflow-hidden bg-fixed bg-slate-900 bg-opacity-70">
         <div class="mb-2 divide-y-2 divide-slate-700">
           <div class="my-1 text-slate-300">Category</div>
           <div class=""></div>
         </div>
-        <ul class="mb-1 mx-auto flex list-inside justify-center">
+        <ul class="mb-1 justify-center">
             {
               type?.includes("Game") 
               &&
@@ -66,7 +68,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
               </a>
             }
         </ul>
-        <ul className="mb-1 mx-auto flex list-inside justify-center">
+        <ul className="mb-1 justify-center">
             {
               subType?.includes("Moblie") 
               &&
@@ -208,5 +210,6 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
         </ul>
       </div>
     </span>
+    </>
 }
 export default ProjectDetailsPopover;
