@@ -28,6 +28,10 @@ export default function Home() {
     });
   };
 
+  const clearFilterCB = () => {
+    setProjectFilter(undefined);
+  }
+
   return (
     <main
       class={`zflex min-h-screen flex-col items-center ${play.className}`}
@@ -72,7 +76,7 @@ export default function Home() {
           <h2 class="mb-5 text-3xl font-bold">
             PROJECTS
           </h2>
-          <ProjectSection filter={projectFilter}/>          
+          <ProjectSection filter={projectFilter} clearFilterCB={clearFilterCB}/>          
         </div>
       </section>
       <section id="Milestone" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
