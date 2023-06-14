@@ -113,7 +113,6 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-c-50.png"
                   fill="true"
-                  color="rgb(31, 41, 55)"
                 />
               </div>
             }

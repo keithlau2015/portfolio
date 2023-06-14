@@ -158,11 +158,13 @@ const projects = [
 
 const projectFilters = ["Game", "Website", "Application", "Server"]
 
-export function ProjectSection({type, owner, tech}) {
-  const [projectTypeFilter, setProjectTypeFilter] = useState(undefined);
-
+export function ProjectSection({filter}) {
+  const [projectFilter, setProjectFilter] = useState(filter);
+  if (projectFilter !== undefined && projectFilter !== filter) {
+    setProjectFilter(filter);
+  }
   const handleClickFilter = (filter) => {
-    setProjectTypeFilter(filter);
+    setProjectFilter(filter);
   }
 
   const ProjectTabBar = () => (
@@ -191,7 +193,7 @@ export function ProjectSection({type, owner, tech}) {
       <ProjectTabBar />
       <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {
-          Object.entries(projects).filter(([index, project]) => { return (project.type.includes(projectTypeFilter) || projectTypeFilter === undefined) || (project.type.includes(projectTypeFilter) || projectTypeFilter === undefined) }).map(([index, project]) => (
+          Object.entries(projects).filter(([index, project]) => { console.log(projectFilter); return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (
             <div key={project.title} class="mb-12 md:mb-0">
               <ProjectCard
               title={project.title} 
@@ -209,4 +211,5 @@ export function ProjectSection({type, owner, tech}) {
       </div>
   </>);
 }
+
 export default ProjectSection;
