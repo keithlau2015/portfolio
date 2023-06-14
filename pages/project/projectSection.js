@@ -166,17 +166,17 @@ export function ProjectSection({type, owner, tech}) {
   }
 
   const ProjectTabBar = () => (
-    <div className="mb-10 flex justify-center" style={{ transition: "all .5s ease 0s" }}>
+    <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
         {
             [
-                <button className={`mx-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-full`} onClick={() => handleClickFilter(undefined)}>
+                <button className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`} onClick={() => handleClickFilter(undefined)}>
                     <div className={` project-tab-bar-tab-text`}>
                         ALL
                     </div>
                 </button>,
   
                 projectFilters.map(type => (
-                    <button className={`mx-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded-full`} onClick={() => handleClickFilter(type)}>
+                    <button className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`} onClick={() => handleClickFilter(type)}>
                         <div className={`project-tab-bar-tab-text`}>
                             {type.toUpperCase()}
                         </div>

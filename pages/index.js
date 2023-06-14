@@ -1,18 +1,10 @@
-import { Inter, Play } from 'next/font/google';
-import Head from 'next/head'
+import { Play } from 'next/font/google';
+import Head from 'next/head';
 import { ProjectSection } from './project/projectSection';
 import { MilestoneSection } from './milestone/milestoneSection';
-
 const play = Play({weight:'400',subsets:['cyrillic']})
 
-export default function Home() { 
-  const scroll2El = elID => {
-    window.scrollTo({
-      top: document.getElementById(elID).offsetTop - 60,
-      behavior: 'smooth',
-    });
-  };
-  
+export default function Home() {
   const onBtnClick = (e) => {
     e.preventDefault();
     const goto = e.target.getAttribute('goto');
@@ -20,6 +12,13 @@ export default function Home() {
       scroll2El(goto);
     }, 100);
   }
+
+  const scroll2El = elID => {
+    window.scrollTo({
+      top: document.getElementById(elID)?.offsetTop,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <main
@@ -35,12 +34,11 @@ export default function Home() {
       <div class="relative overflow-hidden bg-cover bg-no-repeat" style=
       {{
         backgroundPosition: '100%',
-        backgroundImage: 'https://mdbcdn.b-cdn.net/img/new/slides/146.webp',
-        backgroundColor: 'rgb(50,50,50)',
+        backgroundColor: 'rgb(20,20,20)',
         height: '100vh'
       }}>
         <div
-          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
+          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden">
           <div class="flex h-full items-center justify-center">            
             <div class="px-6 text-center text-white md:px-12">
               <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
@@ -51,7 +49,7 @@ export default function Home() {
                 <br/> <p class="text-white/[.8] text-xs md:text-sm xl:text-base">PROFESSIONAL LOSER</p>
               </h1>
               <button type="button" goto="Projects"
-                class="animate-bounce" onClick={onBtnClick}>
+                class="py-10 px-20 animate-bounce" onClick={onBtnClick}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
                   </svg>
@@ -62,8 +60,8 @@ export default function Home() {
       </div>
       </section>
       <section id="Projects" class="relative z-0 overflow-hidden bg-neutral-200">
-        <div class="container my-24 mx-auto md:px-6 text-center">
-          <h2 class="mb-12 text-3xl font-bold">
+        <div class="container my-10 mx-auto md:px-6 text-center">
+          <h2 class="mb-5 text-3xl font-bold">
             Projects
           </h2>
           <ProjectSection />          
