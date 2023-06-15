@@ -194,14 +194,14 @@ export function ProjectSection({filter, clearFilterCB}) {
             ]
         }
     </div>
-  ) 
-
+  )
+  
   return (<>
       <ProjectTabBar />
       <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {
           Object.entries(projects).filter(([index, project]) => { 
-            return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (
+            return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (              
             <div key={project.title} class="mb-12 md:mb-0">
               <ProjectCard
               title={project.title} 
