@@ -10,7 +10,7 @@ export function OneCareer({gotoCB, eventName, range, details, index}) {
         index==0 && 
         <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Current</span>
     }
-    <div className="ml-2 h-[25px] w-[25px] relative transition duration-300 ease-in-out hover:scale-150">
+    <div className="h-[25px] w-[25px] relative transition duration-300 ease-in-out hover:scale-150">
         <Image
         onClick={gotoCB} goto="Projects" param={`${eventName}`}
         src="https://keithlau2015.github.io/portfolio/icons8-project-48.png"
