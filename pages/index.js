@@ -517,6 +517,12 @@ export default function Home() {
                 fill="true"
               />
             </a>
+            <a href='https://discordapp.com/users/313613491816890369' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-discord-30.png"
+                fill="true"
+              />
+            </a>
           </div>
         </div>
       </section>
