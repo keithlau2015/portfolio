@@ -3,8 +3,7 @@ import Head from 'next/head';
 import { ProjectSection } from './project/projectSection';
 import { CareerSection } from './career/careerSection';
 import Image from 'next/image';
-import {useState} from 'react';
-
+import {useState, useEffect} from 'react';
 const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() {
@@ -32,6 +31,34 @@ export default function Home() {
     setProjectFilter(undefined);
   }
 
+  useEffect(() => {
+    const callback = function(entries) {
+      entries.forEach(entry => {
+    
+        // Is the element in the viewport?
+        if (entry.isIntersecting) {
+    
+          // Add the fadeIn class:
+          entry.target.classList.add("motion-safe:animate-fadeIn");
+        } else {
+    
+          // Otherwise remove the fadein class
+          entry.target.classList.remove("motion-safe:animate-fadeIn");
+        }
+      });
+    }; 
+
+    const targets = document.querySelectorAll(".js-show-on-scroll");
+    const observer = new IntersectionObserver(callback);
+    targets.forEach(function(target) {
+      // Hide the element
+      target.classList.add("opacity-0");
+
+      // Add the element to the watcher
+      observer.observe(target);
+    });
+       
+  })
   return (
     <main
       class={`zflex min-h-screen flex-col items-center ${play.className}`}
@@ -41,7 +68,7 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180" href="https://keithlau2015.github.io/portfolio/icons/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="https://keithlau2015.github.io/portfolio/icons/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="https://keithlau2015.github.io/portfolio/icons/favicon-16x16.png"/>
-      </Head>      
+      </Head>
       <section id="Landing">
       <div class="relative overflow-hidden bg-cover bg-no-repeat" style=
       {{
@@ -52,7 +79,7 @@ export default function Home() {
         <div
           class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden">
           <div class="flex h-full items-center justify-center">            
-            <div class="px-6 text-center text-white md:px-12">
+            <div class="px-6 text-center text-white md:px-12 js-show-on-scroll">
               <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
                 KEITH NULL
                 <br/>
@@ -72,7 +99,7 @@ export default function Home() {
       </div>
       </section>
       <section id="Projects" class="relative z-0 overflow-hidden bg-neutral-200">
-        <div class="container my-10 mx-auto md:px-6 text-center">
+        <div class="container my-10 mx-auto md:px-6 text-center js-show-on-scroll">
           <h2 class="mb-5 text-3xl font-bold">
             PROJECTS
           </h2>
@@ -80,24 +107,24 @@ export default function Home() {
         </div>
       </section>
       <section id="Milestone" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
-        <div class="container my-24 mx-auto md:px-6">
+        <div class="container my-24 mx-auto md:px-6 js-show-on-scroll">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
             CAREER
           </h2>
           <CareerSection gotoCB={onBtnClick}/>
         </div>
       </section>
-      <section id="Skills" class="relative z-0 overflow-hidden bg-neutral-200">
-        <div class="container my-24 mx-auto md:px-6 text-center">
+      <section id="Skills" class="relative z-0 overflow-hidden">
+        <div class="container my-24 mx-auto md:px-6 text-center js-show-on-scroll">
           <h2 class="mb-12 text-3xl font-bold">
             TECHNOLOGIES
           </h2>
-          <div class="overflow-hidden text-center bg-white rounded shadow-md text-slate-500 shadow-slate-200">
+          <div class="overflow-hidden text-center text-slate-500 shadow-slate-200">
             <figure class="p-6 pb-0 flex items-center justify-center">
               <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/programming.png"/>
               <h5 class="text-base font-bold ml-3">CODING</h5>
             </figure>
-            <div class="p-6 grid justify-items-stretch gap-x-3 gap-y-3 lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+            <div class="p-6 grid justify-items-stretch gap-x-3 gap-y-3 lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
               <div class="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                 <figure class="p-6">
                   <img class="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-programming-language-48.png"/>
@@ -359,7 +386,7 @@ export default function Home() {
             <div class="p-6">
               <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">Stable Diffusion</div>
+                  <div class="ml-5 mr-3 text-amber-300">STABLE DIFFUSION</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -370,7 +397,7 @@ export default function Home() {
                   </progress>                    
                 </div>
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">ChatGPT</div>
+                  <div class="ml-5 mr-3 text-amber-300">CHATGPT</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -381,7 +408,7 @@ export default function Home() {
                   </progress>                    
                 </div>
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">AutoGPT</div>
+                  <div class="ml-5 mr-3 text-amber-300">AUTOGPT</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -400,7 +427,7 @@ export default function Home() {
             <div class="p-6">
               <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">Blender</div>
+                  <div class="ml-5 mr-3 text-amber-300">BLENDER</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -411,7 +438,7 @@ export default function Home() {
                   </progress>                    
                 </div>
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">Krita</div>
+                  <div class="ml-5 mr-3 text-amber-300">KRITA</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -422,7 +449,7 @@ export default function Home() {
                   </progress>
                 </div>
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">Photoshop</div>
+                  <div class="ml-5 mr-3 text-amber-300">PHOTOSHOP</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -436,12 +463,12 @@ export default function Home() {
             </div>
             <figure class="p-6 pb-0 flex items-center justify-center">
               <img class="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/icons8-video-editing-48.png"/>
-              <h5 class="text-base font-bold ml-3">Video Editing</h5>
+              <h5 class="text-base font-bold ml-3">VIDEO EDITING</h5>
             </figure>
             <div class="p-6">
               <div class="pb-6 pt-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">After Effect</div>
+                  <div class="ml-5 mr-3 text-amber-300">AFTER EFFECT</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -452,7 +479,7 @@ export default function Home() {
                   </progress>                    
                 </div>
                 <div class="flex items-center justify-between">
-                  <div class="ml-5 mr-3 text-amber-300">Premiere Pro</div>
+                  <div class="ml-5 mr-3 text-amber-300">PREMIERE PRO</div>
                   <progress
                   aria-label="loading 25%"
                   id="p01a"
@@ -470,14 +497,14 @@ export default function Home() {
       <section id="Contact" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
         <div class="container my-24 mx-auto md:px-6">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
-            Contact
+            CONTACT
           </h2>
           <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
             <div className="text-amber-300">
-                Phone: +852 53717963
+                PHONE: +852 53717963
             </div>
             <div className="text-amber-300">
-                Email: s101315@gmail.com
+                EMAIL: s101315@gmail.com
             </div>            
           </div>
           <div className="mb-5 flex flex-row items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
@@ -487,42 +514,42 @@ export default function Home() {
                 fill="true"
               />
             </a>
-            <a href='https://www.youtube.com/@keithlau7747/videos' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <a href='https://www.youtube.com/@keithlau7747/videos' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-youtube-50.png"
                 fill="true"
               />
             </a>
-            <a href='https://github.com/keithlau2015' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <a href='https://github.com/keithlau2015' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-github-30.png"
                 fill="true"
               />
             </a>
-            <a href='https://www.linkedin.com/in/keith-lau-b7379b217/' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <a href='https://www.linkedin.com/in/keith-lau-b7379b217/' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-linkedin-50.png"
                 fill="true"
               />
             </a>
-            <a href='https://keithnull.artstation.com/' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <a href='https://keithnull.artstation.com/' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-artstation-32.png"
                 fill="true"
               />
             </a>
-            <a href='https://twitter.com/keithnulled' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <a href='https://twitter.com/keithnulled' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-twitter-30.png"
                 fill="true"
               />
             </a>
-            <a href='https://discordapp.com/users/313613491816890369' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+            <div href='https://discordapp.com/users/313613491816890369' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-discord-30.png"
                 fill="true"
               />
-            </a>
+            </div>
           </div>
         </div>
       </section>

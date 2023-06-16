@@ -1,6 +1,6 @@
 import {ProjectCard} from './projectCard'
 import {useState, useEffect} from 'react';
-
+import { Flipped, Flipper } from 'react-flip-toolkit';
 const projects = [
   {
     type:["Game"], 
@@ -160,8 +160,6 @@ const projectFilters = ["Game", "Website", "Application", "Server"]
 
 export function ProjectSection({filter, clearFilterCB}) {
   const [projectFilter, setProjectFilter] = useState(filter);
-  console.log("filter: "+filter);
-  console.log("projectFilter: "+projectFilter);
 
   if(filter != undefined && projectFilter != filter)
   {
@@ -198,26 +196,31 @@ export function ProjectSection({filter, clearFilterCB}) {
   
   return (<>
       <ProjectTabBar />
-      <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {
-          Object.entries(projects).filter(([index, project]) => { 
-            return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (              
-            <div key={project.title} class="mb-12 md:mb-0">
-              <ProjectCard
-              title={project.title} 
-              description={project.description}
-              bg={project.bg}
-              owner={project.owner}
-              type={project.type}
-              subType={project?.subType}
-              duty={project.duty}
-              tech={project?.tech}
-              index={parseInt(index)}
-              />
-            </div>
-          ))
-        }
-      </div>
+      <Flipper flipKey={projectFilter}>
+        <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          
+          {
+            Object.entries(projects).filter(([index, project]) => { 
+              return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (              
+                <Flipped flipId={index}>
+                  <div key={project.title} class="mb-12 md:mb-0">
+                    <ProjectCard
+                    title={project.title} 
+                    description={project.description}
+                    bg={project.bg}
+                    owner={project.owner}
+                    type={project.type}
+                    subType={project?.subType}
+                    duty={project.duty}
+                    tech={project?.tech}
+                    index={parseInt(index)}
+                    />
+                  </div>
+                </Flipped>
+            ))
+          }
+        </div>
+      </Flipper>
   </>);
 }
 
