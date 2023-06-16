@@ -1,5 +1,5 @@
 import {ProjectCard} from './projectCard'
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 const projects = [
   {
@@ -158,11 +158,20 @@ const projects = [
 
 const projectFilters = ["Game", "Website", "Application", "Server"]
 
-export function ProjectSection({type, owner, tech}) {
-  const [projectTypeFilter, setProjectTypeFilter] = useState(undefined);
+export function ProjectSection({filter, clearFilterCB}) {
+  const [projectFilter, setProjectFilter] = useState(filter);
+  console.log("filter: "+filter);
+  console.log("projectFilter: "+projectFilter);
 
-  const handleClickFilter = (filter) => {
-    setProjectTypeFilter(filter);
+  if(filter != undefined && projectFilter != filter)
+  {
+    setProjectFilter(filter);
+  }
+
+  const handleClickFilter = (_filter) => {
+    setProjectFilter(_filter);
+    if(clearFilterCB != null || clearFilterCB != undefined)
+      clearFilterCB();
   }
 
   const ProjectTabBar = () => (
@@ -185,13 +194,14 @@ export function ProjectSection({type, owner, tech}) {
             ]
         }
     </div>
-  ) 
-
+  )
+  
   return (<>
       <ProjectTabBar />
       <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {
-          Object.entries(projects).filter(([index, project]) => { return (project.type.includes(projectTypeFilter) || projectTypeFilter === undefined) || (project.type.includes(projectTypeFilter) || projectTypeFilter === undefined) }).map(([index, project]) => (
+          Object.entries(projects).filter(([index, project]) => { 
+            return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (              
             <div key={project.title} class="mb-12 md:mb-0">
               <ProjectCard
               title={project.title} 
@@ -202,6 +212,7 @@ export function ProjectSection({type, owner, tech}) {
               subType={project?.subType}
               duty={project.duty}
               tech={project?.tech}
+              index={parseInt(index)}
               />
             </div>
           ))
@@ -209,4 +220,5 @@ export function ProjectSection({type, owner, tech}) {
       </div>
   </>);
 }
+
 export default ProjectSection;

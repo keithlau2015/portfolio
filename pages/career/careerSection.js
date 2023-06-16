@@ -1,6 +1,6 @@
-import { OneMilestone } from "./oneMilestone";
+import { OneCareer } from "./oneCareer";
 
-export function MilestoneSection() {
+export function CareerSection({gotoCB}) {
     const lifeTimeEvents = [
         {eventName:"Karin Group", range:"12/2022 - 12/2023", details:"Analyst Programmer"},
         {eventName:"Dream Global Entertainment Limited", range:"07/2020 - 09/2022", details:"Cocos Game Development Engineer"},
@@ -12,7 +12,8 @@ export function MilestoneSection() {
         {
             lifeTimeEvents.map((item,index)=>{
                 return <li key={item.eventName} class="mb-10 ml-10">
-                <OneMilestone 
+                <OneCareer 
+                    gotoCB={gotoCB}
                     eventName={item.eventName}
                     range={item.range}
                     details={item.details}
@@ -24,4 +25,4 @@ export function MilestoneSection() {
   </ol>);
 }
 
-export default MilestoneSection;
+export default CareerSection;

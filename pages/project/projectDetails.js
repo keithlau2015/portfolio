@@ -12,11 +12,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
 
-export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
-  
+export function ProjectDetailsPopover({owner, type, subType, duty, tech, index}){
     return <>
     <span
-      class={`backdrop-blur-sm min-w-[250px] absolute left-full scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
+      class={`backdrop-blur-sm min-w-[250px] absolute ${index%4==3?"md:right-full":"md:left-full"} scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>
       <div class="my-1 container overflow-hidden bg-fixed bg-slate-900 bg-opacity-70">
@@ -113,7 +112,6 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech}){
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-c-50.png"
                   fill="true"
-                  color="rgb(31, 41, 55)"
                 />
               </div>
             }

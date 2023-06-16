@@ -1,13 +1,21 @@
 import { Play } from 'next/font/google';
 import Head from 'next/head';
 import { ProjectSection } from './project/projectSection';
-import { MilestoneSection } from './milestone/milestoneSection';
+import { CareerSection } from './career/careerSection';
+import Image from 'next/image';
+import {useState} from 'react';
+
 const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() {
+  const [projectFilter, setProjectFilter] = useState(undefined);
+
   const onBtnClick = (e) => {
     e.preventDefault();
     const goto = e.target.getAttribute('goto');
+    const param = e.target.getAttribute('param');
+    console.log(param);
+    setProjectFilter(param);
     setTimeout(() => {
       scroll2El(goto);
     }, 100);
@@ -19,6 +27,10 @@ export default function Home() {
       behavior: 'smooth',
     });
   };
+
+  const clearFilterCB = () => {
+    setProjectFilter(undefined);
+  }
 
   return (
     <main
@@ -62,23 +74,23 @@ export default function Home() {
       <section id="Projects" class="relative z-0 overflow-hidden bg-neutral-200">
         <div class="container my-10 mx-auto md:px-6 text-center">
           <h2 class="mb-5 text-3xl font-bold">
-            Projects
+            PROJECTS
           </h2>
-          <ProjectSection />          
+          <ProjectSection filter={projectFilter} clearFilterCB={clearFilterCB}/>          
         </div>
       </section>
       <section id="Milestone" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
         <div class="container my-24 mx-auto md:px-6">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
-            Milestone
+            CAREER
           </h2>
-          <MilestoneSection />
+          <CareerSection gotoCB={onBtnClick}/>
         </div>
       </section>
       <section id="Skills" class="relative z-0 overflow-hidden bg-neutral-200">
         <div class="container my-24 mx-auto md:px-6 text-center">
           <h2 class="mb-12 text-3xl font-bold">
-            Skill Set
+            SKILL SET
           </h2>
           <div class="overflow-hidden text-center bg-white rounded shadow-md text-slate-500 shadow-slate-200">
             <figure class="p-6 pb-0 flex items-center justify-center">
@@ -371,21 +383,50 @@ export default function Home() {
             Contact
           </h2>
           <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
-            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
-              <div className={` project-tab-bar-tab-text`}>
-                  Phone
-              </div>
+            <div className="text-amber-300">
+                Phone: +852 53717963
             </div>
-            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
-              <div className={` project-tab-bar-tab-text`}>
-                  Instagram
-              </div>
-            </div>
-            <div className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`}>
-              <div className={` project-tab-bar-tab-text`}>
-                  Email
-              </div>
-            </div>
+            <div className="text-amber-300">
+                Email: s101315@gmail.com
+            </div>            
+          </div>
+          <div className="mb-5 flex flex-row items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
+            <a href='https://www.instagram.com/nullpointinteractive/' className="h-[30px] w-[30px] relative mr-1 ml-1 ">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-ig-48.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://www.youtube.com/@keithlau7747/videos' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-youtube-50.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://github.com/keithlau2015' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-github-30.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://www.linkedin.com/in/keith-lau-b7379b217/' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-linkedin-50.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://keithnull.artstation.com/' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-artstation-32.png"
+                fill="true"
+              />
+            </a>
+            <a href='https://twitter.com/keithnulled' className="h-[30px] w-[30px] relative mr-1 ml-1 group-hover:scale-120">
+              <Image
+                src="https://keithlau2015.github.io/portfolio/icons8-twitter-30.png"
+                fill="true"
+              />
+            </a>
           </div>
         </div>
       </section>
