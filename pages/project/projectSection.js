@@ -1,6 +1,7 @@
 import {ProjectCard} from './projectCard'
 import {useState, useEffect} from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
+
 const projects = [
   {
     type:["Game"], 
@@ -221,16 +222,16 @@ export function ProjectSection({filter, clearFilterCB}) {
                 <Flipped flipId={index}>
                   <div key={project.title} class="mb-12 md:mb-0">
                     <ProjectCard
-                    title={project.title} 
-                    description={project.description}
-                    bg={project.bg}
-                    owner={project.owner}
-                    type={project.type}
-                    subType={project?.subType}
-                    duty={project.duty}
-                    tech={project?.tech}
-                    index={parseInt(index)}
-                    url={project.url}
+                      title={project.title} 
+                      description={project.description}
+                      bg={project.bg}
+                      owner={project.owner}
+                      type={project.type}
+                      subType={project?.subType}
+                      duty={project.duty}
+                      tech={project?.tech}
+                      index={parseInt(index)}
+                      url={project.url}
                     />
                   </div>
                 </Flipped>
