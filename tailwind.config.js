@@ -8,12 +8,29 @@ module.exports = {
   theme: {
     extend: {
       animation:{
-        fadeIn: "fadeIn 0.5s ease-in forwards"
+        fadeIn: "fadeIn 0.5s ease-in forwards",
+        infiniteScroll: "moveBg 10s linear infinite"
       },
       keyframes:{
         fadeIn:{
-          "0%": { opacity: 0},
-          "100%": { opacity: 1 }
+          "0%": { 
+            opacity: '0',
+            transform: 'translateY(-50px)'
+          },
+          "100%": { 
+            opacity: '1',
+            transform: 'translateY(0)'
+          }
+        },
+        moveBg:{
+          "0%": { 
+            opacity: '1',
+            backgroundPosition: '0 0'
+          },
+          "100%": { 
+            opacity: '1',
+            backgroundPosition: '0 2000px' 
+          }
         }
       },
       variants: {

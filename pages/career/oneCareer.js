@@ -10,14 +10,15 @@ export function OneCareer({gotoCB, eventName, range, details, index}) {
         index==0 && 
         <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Current</span>
     }
-    <div className="h-[25px] w-[25px] relative transition duration-300 ease-in-out hover:scale-150">
+    </h3>
+    <div className="pl-2 mb-2 h-[25px] w-[25px] relative transition duration-300 ease-in-out hover:scale-150">
         <Image
         onClick={gotoCB} goto="Projects" param={`${eventName}`}
         src="https://keithlau2015.github.io/portfolio/icons8-project-48.png"
         fill="true"
         />
+        <div className="pl-5 text-amber-300" onClick={gotoCB} goto="Projects" param={`${eventName}`}>PROJECTS</div>
     </div>
-    </h3>
     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">{range?range:"00/0000 - 00/0000"}</time>
     <p className="mb-4 text-base font-normal text-gray-500">{details?details:""}</p>
   </div>);

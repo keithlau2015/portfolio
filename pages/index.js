@@ -8,6 +8,9 @@ const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() {
   const [projectFilter, setProjectFilter] = useState(undefined);
+  const [canvasCtx, setCanvasCtx] = useState(undefined);
+  const [canvasWidth, setCanvasWidth] = useState(undefined);
+  const [canvasHeight, setCanvasHeight] = useState(undefined);
 
   const onBtnClick = (e) => {
     e.preventDefault();
@@ -32,6 +35,57 @@ export default function Home() {
   }
 
   useEffect(() => {
+    // Initialising the canvas
+    var canvas = document.querySelector('canvas');
+    setCanvasCtx(canvas.getContext('2d'));
+    // Setting the width and height of the canvas
+    setCanvasWidth(window.innerWidth);
+    setCanvasHeight(window.innerHeight);
+    canvas.width = canvasWidth;
+    canvas.height = canvasHeight;
+    // Setting up the letters
+    var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+    letters = letters.split('');
+
+    // Setting up the columns
+    var fontSize = 10,
+    columns = canvasWidth / fontSize;
+
+    // Setting up the drops
+    var drops = []
+    for (var i = 0; i < columns; i++) {
+      drops.push(1);
+    }
+
+    // Setting up the draw function
+    function run() {
+      if(canvasCtx == undefined || canvasCtx == null || canvasWidth == undefined || canvasWidth == null || canvasHeight == undefined || canvasHeight == null)
+        return;
+      canvasCtx.fillStyle = 'rgba(0, 0, 0, .1)';
+      canvasCtx.fillRect(0, 0, canvasWidth, canvasHeight);
+      for (var i = 0; i < drops.length; i++) {
+        var text = letters[Math.floor(Math.random() * letters.length)];
+        canvasCtx.fillStyle = '#00ffb5';
+        canvasCtx.fillText(text, i * fontSize, drops[i] * fontSize);
+        drops[i]++;
+        if (drops[i] * fontSize > canvasHeight && Math.random() > .95) {
+          drops[i] = 0;
+        }
+      }
+    }
+
+    // Loop the animation
+    var interval = setInterval(run, 33);
+
+    window.addEventListener("resize", () => {
+      if(canvasCtx == undefined || canvasCtx == null || canvasWidth == undefined || canvasWidth == null || canvasHeight == undefined || canvasHeight == null)
+        return;
+      clearInterval(interval);
+      setCanvasWidth(window.innerWidth);
+      setCanvasHeight(window.innerHeight);
+      canvasCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+    });
+    
     const callback = function(entries) {
       entries.forEach(entry => {
     
@@ -70,14 +124,14 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="https://keithlau2015.github.io/portfolio/icons/favicon-16x16.png"/>
       </Head>
       <section id="Landing">
-      <div class="relative overflow-hidden bg-cover bg-no-repeat" style=
-      {{
-        backgroundPosition: '100%',
-        backgroundColor: 'rgb(20,20,20)',
-        height: '100vh'
-      }}>
-        <div
-          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden">
+      <div class="relative overflow-hidden min-h-screen">
+        <canvas class="static block -z-50 brightness-[.4]" style=
+        {{
+          backgroundPosition: '100%',
+          backgroundColor: 'rgb(20,20,20)',
+          height: '100vh'
+        }}></canvas>
+        <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden">
           <div class="flex h-full items-center justify-center">            
             <div class="px-6 text-center text-white md:px-12 js-show-on-scroll">
               <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
@@ -495,7 +549,7 @@ export default function Home() {
         </div>
       </section>
       <section id="Contact" class="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
-        <div class="container my-24 mx-auto md:px-6">
+        <div class="container my-24 mx-auto md:px-6 js-show-on-scroll">
           <h2 class="mb-12 text-3xl font-bold text-white text-center">
             CONTACT
           </h2>
