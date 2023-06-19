@@ -125,7 +125,7 @@ export default function Home() {
       </Head>
       <section id="Landing">
       <div class="relative overflow-hidden min-h-screen">
-        <canvas class="static block -z-50 brightness-[.4]" style=
+        <canvas class="static block -z-50 brightness-[.3]" style=
         {{
           backgroundPosition: '100%',
           backgroundColor: 'rgb(20,20,20)',
