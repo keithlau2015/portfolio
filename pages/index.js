@@ -566,42 +566,49 @@ export default function Home() {
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-ig-48.png"
                 fill="true"
+                alt='keithlau ig'
               />
             </a>
             <a href='https://www.youtube.com/@keithlau7747/videos' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-youtube-50.png"
                 fill="true"
+                alt='keithlau youtube'
               />
             </a>
             <a href='https://github.com/keithlau2015' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-github-30.png"
                 fill="true"
+                alt='keithlau github'
               />
             </a>
             <a href='https://www.linkedin.com/in/keith-lau-b7379b217/' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-linkedin-50.png"
                 fill="true"
+                alt='keithlau linkedin'
               />
             </a>
             <a href='https://keithnull.artstation.com/' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-artstation-32.png"
                 fill="true"
+                alt='keithlau artstation'
               />
             </a>
             <a href='https://twitter.com/keithnulled' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-twitter-30.png"
                 fill="true"
+                alt='keithlau twitter'
               />
             </a>
             <div href='https://discordapp.com/users/313613491816890369' className="h-[30px] w-[30px] relative mr-1 ml-1">
               <Image
                 src="https://keithlau2015.github.io/portfolio/icons8-discord-30.png"
                 fill="true"
+                alt='keithlau discord'
               />
             </div>
           </div>

@@ -1,5 +1,5 @@
 import {ProjectCard} from './projectCard'
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 
 const projects = [

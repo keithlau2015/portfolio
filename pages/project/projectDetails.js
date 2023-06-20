@@ -27,67 +27,49 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
             {
               type?.includes("Game") 
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faGamepad} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+                <FontAwesomeIcon icon={faGamepad} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px' }}/>
             }
             {
               type?.includes("Website") 
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+                <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
             }
             {
               type?.includes("3D Model")
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+                <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
             }
             {
               type?.includes("Application")
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faRocket} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+                <FontAwesomeIcon icon={faRocket} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
             }
             {
               type?.includes("Server")
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faServer} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+                <FontAwesomeIcon icon={faServer} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
             }
             {
-              type?.includes("DevTools")
+              type?.includes("Utilities")
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faToolbox} style={{ fontSize: 20, color: 'rgb(252,211,77)'}}/>
-              </a>
+              <FontAwesomeIcon icon={faToolbox} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
             }
         </ul>
         <ul className="mb-1 justify-center">
             {
               subType?.includes("Moblie") 
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faMobileScreenButton} style={{ fontSize: 10, color: 'rgb(203,213,225)'}}/>
-              </a>
+              <FontAwesomeIcon icon={faMobileScreenButton} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
             }
             {
               subType?.includes("PC") 
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faComputer} style={{ fontSize: 10, color: 'rgb(203,213,225)'}}/>
-              </a>
+              <FontAwesomeIcon icon={faComputer} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
             }
             {
               subType?.includes("VR") || subType?.includes("AR") 
               &&
-              <a href="#!" class="px-2">
-                <FontAwesomeIcon icon={faVrCardboard} style={{ fontSize: 10, color: 'rgb(203,213,225)'}}/>
-              </a>
+              <FontAwesomeIcon icon={faVrCardboard} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
             }
         </ul>
         {
@@ -112,6 +94,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-c-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -122,6 +105,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-java-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -132,6 +116,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-unity-48.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -142,6 +127,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-mysql-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -152,6 +138,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-lua-language-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -162,6 +149,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-python-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -172,6 +160,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-blender-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -182,6 +171,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-nodejs-32.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -192,6 +182,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-javascript-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -202,6 +193,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-tailwindcss-48.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -212,6 +204,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-dart-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
@@ -222,6 +215,7 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 <Image
                   src="https://keithlau2015.github.io/portfolio/icons8-flutter-50.png"
                   fill="true"
+                  alt="icon"
                 />
               </div>
             }
