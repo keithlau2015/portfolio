@@ -137,7 +137,7 @@ export default function Home() {
               <h1 class="mt-2 mb-16 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl">
                 KEITH NULL
                 <br/>
-                <div class="horizontal"><div class="hr"></div><img src="/static/media/diamond.f7a7deb7.png" class="diamond" alt=""/><div class="hr"></div></div>
+                <div class="horizontal"><div class="hr"></div><div class="hr"></div></div>
                 <br/> GAME DEVELOPER
                 <br/> <p class="text-white/[.8] text-xs md:text-sm xl:text-base">PROFESSIONAL LOSER</p>
               </h1>
