@@ -205,6 +205,26 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
                 />
               </div>
             }
+            {
+              tech?.includes("Dart")
+              &&
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-dart-50.png"
+                  fill="true"
+                />
+              </div>
+            }
+            {
+              tech?.includes("Flutter")
+              &&
+              <div className="h-[20px] w-[20px] relative mr-1 ml-1">
+                <Image
+                  src="https://keithlau2015.github.io/portfolio/icons8-flutter-50.png"
+                  fill="true"
+                />
+              </div>
+            }
         </ul>
       </div>
     </span>

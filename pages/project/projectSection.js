@@ -171,6 +171,16 @@ const projects = [
     tech:["Nodejs", "Js", "Tailwind"],
     url:"https://keithlau2015.github.io/portfolio/"
   },
+  {
+    type:["Application"], 
+    owner:"Personal", 
+    title:"Social Media Management Tools", 
+    description:"Application", 
+    bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
+    duty:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
+    tech:["Flutter", "Dart"],
+    url:"https://keithlau2015.github.io/portfolio/"
+  },
 ];
 
 const projectFilters = ["Game", "Website", "Application", "Server"]
