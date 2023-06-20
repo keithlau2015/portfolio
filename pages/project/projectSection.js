@@ -90,7 +90,7 @@ const projects = [
     url: ""
   },
   {
-    type:["DevTools"], 
+    type:["Utilities"], 
     owner:"Personal", 
     title:"Editor Bootloader", 
     description:"Unity Dev Tools",
@@ -100,7 +100,7 @@ const projects = [
     url:"https://github.com/keithlau2015/EditorBootloader"
   },
   {
-    type:["DevTools"], 
+    type:["Utilities"], 
     owner:"Personal", 
     title:"Bug Report System", 
     description:"Unity Utilities", 
@@ -179,11 +179,11 @@ const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
     duty:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
     tech:["Flutter", "Dart"],
-    url:"https://keithlau2015.github.io/portfolio/"
+    url:""
   },
 ];
 
-const projectFilters = ["Game", "Website", "Application", "Server"]
+const projectFilters = ["Game", "Website", "Application", "Server", "3D Model", "Utilities"]
 
 export function ProjectSection({filter, clearFilterCB}) {
   const [projectFilter, setProjectFilter] = useState(filter);
@@ -200,17 +200,17 @@ export function ProjectSection({filter, clearFilterCB}) {
   }
 
   const ProjectTabBar = () => (
-    <div className="mb-5 flex flex-row max-sm:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
+    <div className="mb-5 flex flex-row max-lg:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
         {
             [
-                <button className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`} onClick={() => handleClickFilter(undefined)}>
+                <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px]`} onClick={() => handleClickFilter(undefined)}>
                     <div className={` project-tab-bar-tab-text`}>
                         ALL
                     </div>
                 </button>,
   
                 projectFilters.map(type => (
-                    <button className={`mx-5 my-5 bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-5 rounded-full`} onClick={() => handleClickFilter(type)}>
+                    <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px]`} onClick={() => handleClickFilter(type)}>
                         <div className={`project-tab-bar-tab-text`}>
                             {type.toUpperCase()}
                         </div>
