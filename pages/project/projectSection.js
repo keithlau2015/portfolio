@@ -139,7 +139,7 @@ const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')]",
     duty:"The is a game server project, which I after learn the server side knowledge from Gameone. I wanted to start to code my own game server base.",
     tech:["C#"],
-    url: ""
+    url: "https://github.com/keithlau2015/CSharp_ServerBase"
   },
   {
     type:["3D Model"], 
@@ -211,31 +211,36 @@ export function ProjectSection({filter, clearFilterCB}) {
     </div>
   )
   
+  let projectCrads = []
+  Object.entries(projects).filter(([index, project]) => { 
+    return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) 
+  }).forEach((project, index) => {
+    projectCrads.push(
+      <Flipped flipId={index}>
+        <div key={project[1].title} class="mb-12 md:mb-0">
+          <ProjectCard
+            title={project[1].title} 
+            description={project[1].description}
+            bg={project[1].bg}
+            owner={project[1].owner}
+            type={project[1].type}
+            subType={project[1]?.subType}
+            duty={project[1].duty}
+            tech={project[1]?.tech}
+            index={parseInt(index)}
+            url={project[1].url}
+          />
+        </div>
+      </Flipped>
+    );
+  })
+
   return (<>
       <ProjectTabBar />
       <Flipper flipKey={projectFilter}>
         <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          
           {
-            Object.entries(projects).filter(([index, project]) => { 
-              return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) }).map(([index, project]) => (              
-                <Flipped flipId={index}>
-                  <div key={project.title} class="mb-12 md:mb-0">
-                    <ProjectCard
-                      title={project.title} 
-                      description={project.description}
-                      bg={project.bg}
-                      owner={project.owner}
-                      type={project.type}
-                      subType={project?.subType}
-                      duty={project.duty}
-                      tech={project?.tech}
-                      index={parseInt(index)}
-                      url={project.url}
-                    />
-                  </div>
-                </Flipped>
-            ))
+            projectCrads
           }
         </div>
       </Flipper>

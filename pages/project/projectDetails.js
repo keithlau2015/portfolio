@@ -13,9 +13,9 @@ import {
 import Image from 'next/image';
 
 export function ProjectDetailsPopover({owner, type, subType, duty, tech, index}){
-    return <>
+  return <>
     <span
-      class={`backdrop-blur-sm min-w-[250px] absolute ${index%4==3?"md:right-full":"md:left-full"} scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
+      class={`backdrop-blur-sm min-w-[250px] absolute bottom-1 scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
       <div class="text-base font-bold">Project Owner:</div>
       <div class="text-sm text-slate-300">{owner}</div>
       <div class="my-1 container overflow-hidden bg-fixed bg-slate-900 bg-opacity-70">
@@ -208,6 +208,6 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
         </ul>
       </div>
     </span>
-    </>
+  </>
 }
 export default ProjectDetailsPopover;

@@ -1,4 +1,4 @@
-import Link from "next/link";
+'use client'
 import { ProjectDetailsPopover } from "./projectDetails";
 
 export function ProjectCard({title, description, bg, owner, type, subType, duty, tech, index, url}) {
