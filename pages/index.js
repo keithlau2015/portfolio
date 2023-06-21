@@ -4,6 +4,7 @@ import { ProjectSection } from './project/projectSection';
 import { CareerSection } from './career/careerSection';
 import Image from 'next/image';
 import {useState, useEffect} from 'react';
+
 const play = Play({weight:'400',subsets:['cyrillic']})
 
 export default function Home() {
@@ -178,7 +179,7 @@ export default function Home() {
               <img className="object-contain h-10 w-10" src="https://keithlau2015.github.io/portfolio/programming.png"/>
               <h5 className="text-base font-bold ml-3">CODING</h5>
             </figure>
-            <div className="p-6 grid justify-items-stretch gap-x-3 gap-y-3 lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+            <div className="p-6 grid justify-items-stretch gap-x-3 gap-y-3 lg:gap-xl-12 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
               <div className="pb-6 overflow-hidden text-center bg-neutral-900 rounded shadow-md shadow-slate-200">
                 <figure className="p-6">
                   <img className="object-contain h-10 w-10 mx-auto" src="https://keithlau2015.github.io/portfolio/icons8-programming-language-48.png"/>
@@ -613,6 +614,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section id="Footer" className="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
+          <div className="mb-5 text-sm text-slate-500 text-opacity-50 text-center">
+            © Copyright 2023 keithlau
+          </div>
       </section>
     </main>
   )
