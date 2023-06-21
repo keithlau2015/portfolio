@@ -616,7 +616,7 @@ export default function Home() {
         </div>
       </section>
       <section id="Footer" className="relative z-0 overflow-hidden bg-cover bg-no-repeat bg-neutral-900">
-          <div className="mb-5 text-sm text-slate-500 text-opacity-50 text-center">
+          <div className="mb-5 text-sm text-slate-500 text-center">
             © Copyright 2023 keithlau
           </div>
       </section>
