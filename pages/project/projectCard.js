@@ -2,7 +2,8 @@ import Link from "next/link";
 import { ProjectDetailsPopover } from "./projectDetails";
 
 export function ProjectCard({title, description, bg, owner, type, subType, duty, tech, index, url}) {
-    return ({
+    return (
+{
             url!="" &&
             <Link href={url} passHref={true}>
                 <div class={`
@@ -25,7 +26,7 @@ export function ProjectCard({title, description, bg, owner, type, subType, duty,
                 <div class="text-base font-bold text-white">{title ? title : 'Project Title'}</div>
                 <div class="text-xs text-white pb-5">{description ? description : 'Description'}</div>
             </div>
+}
     );
-                }
 }
  export default ProjectCard;
