@@ -27,49 +27,49 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
             {
               type?.includes("Game") 
               &&
-                <FontAwesomeIcon icon={faGamepad} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px' }}/>
+                <FontAwesomeIcon icon={faGamepad} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px' }}/>
             }
             {
               type?.includes("Website") 
               &&
-                <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
+                <FontAwesomeIcon icon={faGlobe} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               type?.includes("3D Model")
               &&
-                <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
+                <FontAwesomeIcon icon={faPalette} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               type?.includes("Application")
               &&
-                <FontAwesomeIcon icon={faRocket} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
+                <FontAwesomeIcon icon={faRocket} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               type?.includes("Server")
               &&
-                <FontAwesomeIcon icon={faServer} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
+                <FontAwesomeIcon icon={faServer} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               type?.includes("Utilities")
               &&
-              <FontAwesomeIcon icon={faToolbox} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 2px 0px 2px'}}/>
+              <FontAwesomeIcon icon={faToolbox} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/>
             }
         </ul>
         <ul className="mb-1 justify-center">
             {
               subType?.includes("Moblie") 
               &&
-              <FontAwesomeIcon icon={faMobileScreenButton} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
+              <FontAwesomeIcon icon={faMobileScreenButton} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               subType?.includes("PC") 
               &&
-              <FontAwesomeIcon icon={faComputer} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
+              <FontAwesomeIcon icon={faComputer} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 5px 0px 5px'}}/>
             }
             {
               subType?.includes("VR") || subType?.includes("AR") 
               &&
-              <FontAwesomeIcon icon={faVrCardboard} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 2px 0px 2px'}}/>
+              <FontAwesomeIcon icon={faVrCardboard} style={{ fontSize: 10, color: 'rgb(203,213,225)', padding: '0px 5px 0px 5px'}}/>
             }
         </ul>
         {
