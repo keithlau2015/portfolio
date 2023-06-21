@@ -15,15 +15,15 @@ import Image from 'next/image';
 export function ProjectDetailsPopover({owner, type, subType, duty, tech, index}){
   return <>
     <span
-      class={`backdrop-blur-sm min-w-[250px] absolute bottom-1 scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
-      <div class="text-base font-bold">Project Owner:</div>
-      <div class="text-sm text-slate-300">{owner}</div>
-      <div class="my-1 container overflow-hidden bg-fixed bg-slate-900 bg-opacity-70">
-        <div class="mb-2 divide-y-2 divide-slate-700">
-          <div class="my-1 text-slate-300">Category</div>
-          <div class=""></div>
+      className={`backdrop-blur-sm min-w-[250px] absolute bottom-1 scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>
+      <div className="text-base font-bold">Project Owner:</div>
+      <div className="text-sm text-slate-300">{owner}</div>
+      <div className="my-1 container overflow-hidden bg-fixed bg-slate-900 bg-opacity-70">
+        <div className="mb-2 divide-y-2 divide-slate-700">
+          <div className="my-1 text-slate-300">Category</div>
+          <div className=""></div>
         </div>
-        <ul class="mb-1 justify-center">
+        <ul className="mb-1 justify-center">
             {
               type?.includes("Game") 
               &&
@@ -75,18 +75,18 @@ export function ProjectDetailsPopover({owner, type, subType, duty, tech, index})
         {
           duty!=null &&
           <div>
-            <div class="mb-2 divide-y-2 divide-slate-700">
-              <div class=""></div>
-              <div class=""></div>
+            <div className="mb-2 divide-y-2 divide-slate-700">
+              <div className=""></div>
+              <div className=""></div>
             </div>
             <div className="ml-3 my-1 text-left text-slate-300">{duty}</div>
           </div>
         }
-        <div class="mt-2 divide-y-2 divide-slate-700">
-          <div class=""></div>
-          <div class="mt-2 text-slate-300">Tech</div>
+        <div className="mt-2 divide-y-2 divide-slate-700">
+          <div className=""></div>
+          <div className="mt-2 text-slate-300">Tech</div>
         </div>
-        <ul class="mb-2 mx-auto flex list-inside justify-center">
+        <ul className="mb-2 mx-auto flex list-inside justify-center">
             {
               tech?.includes("C#") 
               &&
