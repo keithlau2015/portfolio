@@ -8,7 +8,7 @@ export function OneCareer({gotoCB, eventName, range, details, index}) {
     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">{eventName?eventName:"Name"}
     {
         index==0 && 
-        <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Current</span>
+        <span className="bg-amber-300 text-amber-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Present</span>
     }
     </h3>
     <div className="pl-2 mb-2 h-[25px] w-[25px] relative transition duration-300 ease-in-out hover:scale-150">
@@ -16,7 +16,7 @@ export function OneCareer({gotoCB, eventName, range, details, index}) {
         onClick={gotoCB} goto="Projects" param={`${eventName}`}
         src="https://keithlau2015.github.io/portfolio/icons8-project-48.png"
         fill="true"
-        alt='keithlau projects'
+        alt={eventName}
         />
         <div className="pl-5 text-amber-300" onClick={gotoCB} goto="Projects" param={`${eventName}`}>PROJECTS</div>
     </div>
