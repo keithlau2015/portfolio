@@ -93,7 +93,7 @@ const projects = [
     type:["Utilities"], 
     owner:"Personal", 
     title:"Editor Bootloader", 
-    description:"Unity Dev Tools",
+    description:"Unity Utilities",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')]",
     duty:"A Tool for lazy developers(me) who always for get to switch back the init scene while entering the play mode in unity. This project is develop for just one purpose, in unity while enter play mode, will auto load your init scene.",
     tech:["C#", "Unity"],
@@ -203,14 +203,14 @@ export function ProjectSection({filter, clearFilterCB}) {
     <div className="mb-5 flex flex-row max-lg:flex-col items-center justify-evenly" style={{ transition: "all .5s ease 0s" }}>
         {
             [
-                <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px]`} onClick={() => handleClickFilter(undefined)}>
+                <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px] max-lg:min-w-[600px] max-md:min-w-[300px]`} onClick={() => handleClickFilter(undefined)}>
                     <div className={` project-tab-bar-tab-text`}>
                         ALL
                     </div>
                 </button>,
   
                 projectFilters.map(type => (
-                    <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px]`} onClick={() => handleClickFilter(type)}>
+                    <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px] max-lg:min-w-[600px] max-md:min-w-[300px]`} onClick={() => handleClickFilter(type)}>
                         <div className={`project-tab-bar-tab-text`}>
                             {type.toUpperCase()}
                         </div>
@@ -226,8 +226,8 @@ export function ProjectSection({filter, clearFilterCB}) {
     return (project.type.includes(projectFilter) || project.owner == projectFilter || projectFilter === undefined) 
   }).forEach((project, index) => {
     projectCrads.push(
-      <Flipped flipId={index}>
-        <div key={project[1].title} class="mb-12 md:mb-0">
+      <Flipped flipId={project[1].title}>
+        <div key={project[1].title} className="mb-12 md:mb-0">
           <ProjectCard
             title={project[1].title} 
             description={project[1].description}
@@ -248,7 +248,7 @@ export function ProjectSection({filter, clearFilterCB}) {
   return (<>
       <ProjectTabBar />
       <Flipper flipKey={projectFilter}>
-        <div class="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid gap-x-6 gap-y-6 lg:gap-xl-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {
             projectCrads
           }
