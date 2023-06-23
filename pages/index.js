@@ -66,7 +66,7 @@ export default function Home() {
       canvasCtx.fillRect(0, 0, canvasWidth, canvasHeight);
       for (var i = 0; i < drops.length; i++) {
         var text = letters[Math.floor(Math.random() * letters.length)];
-        canvasCtx.fillStyle = '#00ffb5';
+        canvasCtx.fillStyle = '#FCD34D';
         canvasCtx.fillText(text, i * fontSize, drops[i] * fontSize);
         drops[i]++;
         if (drops[i] * fontSize > canvasHeight && Math.random() > .95) {
@@ -126,7 +126,7 @@ export default function Home() {
       </Head>
       <section id="Landing">
       <div className="relative overflow-hidden min-h-screen">
-        <canvas className="static block -z-50 brightness-[.3]" style=
+        <canvas className="static block -z-50 brightness-[.4]" style=
         {{
           backgroundPosition: '100%',
           backgroundColor: 'rgb(20,20,20)',
