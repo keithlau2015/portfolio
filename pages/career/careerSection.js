@@ -1,7 +1,7 @@
 import { OneCareer } from "./oneCareer";
 
 export function CareerSection({gotoCB}) {
-    const lifeTimeEvents = [
+    const workingExpEvents = [
         {eventName:"Karin Group", range:"12/2022 - 12/2023", details:"Analyst Programmer"},
         {eventName:"Dream Global Entertainment Limited", range:"07/2020 - 09/2022", details:"Cocos Game Development Engineer"},
         {eventName:"Gameone Group Limited", range:"06/2020 - 07/2022", details:"Senior Programmer"},
@@ -10,7 +10,7 @@ export function CareerSection({gotoCB}) {
 
     return (<ol className="relative ml-20 border-l border-gray-200 dark:border-gray-700">     
         {
-            lifeTimeEvents.map((item,index)=>{
+            workingExpEvents.map((item,index)=>{
                 return <li key={item.eventName} className="mb-10 ml-10">
                 <OneCareer 
                     gotoCB={gotoCB}
