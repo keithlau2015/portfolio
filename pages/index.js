@@ -66,7 +66,7 @@ export default function Home() {
       canvasCtx.fillRect(0, 0, canvasWidth, canvasHeight);
       for (var i = 0; i < drops.length; i++) {
         var text = letters[Math.floor(Math.random() * letters.length)];
-        canvasCtx.fillStyle = '#FCD34D';
+        canvasCtx.fillStyle = '#00d7e7';
         canvasCtx.fillText(text, i * fontSize, drops[i] * fontSize);
         drops[i]++;
         if (drops[i] * fontSize > canvasHeight && Math.random() > .95) {
