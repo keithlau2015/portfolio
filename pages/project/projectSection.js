@@ -122,9 +122,9 @@ const projects = [
   },
   {
     type:["Game"], 
-    subType:["PC", "Moblie"], 
+    subType:["PC"], 
     owner:"Personal", 
-    title:"Druid", 
+    title:"Fated Dungeon", 
     description:"On Going Game Project", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
     duty:"This is a solo game project, still in development",
@@ -171,16 +171,16 @@ const projects = [
     tech:["Nodejs", "Js", "Tailwind"],
     url:"https://keithlau2015.github.io/portfolio/"
   },
-  {
-    type:["Application"], 
-    owner:"Personal", 
-    title:"Social Media Management Tools", 
-    description:"Application", 
-    bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
-    duty:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
-    tech:["Flutter", "Dart"],
-    url:""
-  },
+  // {
+  //   type:["Application"], 
+  //   owner:"Personal", 
+  //   title:"Social Media Management Tools", 
+  //   description:"Application", 
+  //   bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
+  //   duty:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
+  //   tech:["Flutter", "Dart"],
+  //   url:""
+  // },
 ];
 
 const projectFilters = ["Game", "Website", "Application", "Server", "3D Model", "Utilities"]
