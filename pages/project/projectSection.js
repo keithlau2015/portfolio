@@ -75,7 +75,7 @@ const projects = [
     owner:"CIMPTech", 
     title:"民坊 AR虛擬現實網路應用程式",
     description:"Interactive Media", 
-    bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
+    bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')]",
     duty:"I as a freenlancer to develop a ar web application for a event.",
     tech:["Nodejs", "Js"],
     url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
