@@ -63,11 +63,22 @@ const projects = [
     subType:["AR"], 
     owner:"CIMPTech", 
     title:"Mannings 50th Anniversary Event",
-    description:"AR Game", 
+    description:"Interactive Media", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
     duty:"I as a freenlancer to develop a ar game for Mannings 50th Anniversary Event. This project I learn a lot of developmnet of ar game, also cooperate with installation to finish",
     tech:["Unity", "C#"],
-    url:"https://www.mannings.com.hk/50th_Anniversary"
+    url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
+  },
+  {
+    type:["Application","Website"], 
+    subType:["AR"], 
+    owner:"CIMPTech", 
+    title:"民坊 AR虛擬現實網路應用程式",
+    description:"Interactive Media", 
+    bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
+    duty:"I as a freenlancer to develop a ar web application for a event.",
+    tech:["Nodejs", "Js"],
+    url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
   },
   {
     type:["Application", "Website"], 
@@ -145,7 +156,7 @@ const projects = [
     type:["3D Model"], 
     owner:"Personal", 
     title:"Hello World", 
-    description:"3D Model Project",
+    description:"3D Model",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')]",
     duty:"The 3D model project is I following the youtube tutorial to get learn about the basic of blender, and how to render a image in blender",
     tech:["Blender"],
@@ -155,7 +166,7 @@ const projects = [
     type:["3D Model"], 
     owner:"Personal", 
     title:"Lowploy Room", 
-    description:"3D Model Project", 
+    description:"3D Model", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')]",
     duty:"The 3D model project is for myself to get known more about 3D modeling process, and also learning the lighting and simple render skills",
     tech:["Blender"],
