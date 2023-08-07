@@ -463,9 +463,20 @@ export default function Home() {
                   </progress>                    
                 </div>
                 <div className="flex items-center justify-between">
+                  <div className="ml-5 mr-3 text-amber-300">CHATGLM</div>
+                  <progress
+                  aria-label="loading 30%"
+                  id="p01a"
+                  max="100"
+                  value="40"
+                  className="my-3 mr-5 overflow-hidden rounded bg-slate-100 [&::-webkit-progress-bar]:bg-slate-100 [&::-webkit-progress-value]:bg-amber-500 [&::-moz-progress-bar]:bg-amber-500"
+                  >
+                  </progress>                    
+                </div>
+                <div className="flex items-center justify-between">
                   <div className="ml-5 mr-3 text-amber-300">AUTOGPT</div>
                   <progress
-                  aria-label="loading 25%"
+                  aria-label="loading 20%"
                   id="p01a"
                   max="100"
                   value="25"

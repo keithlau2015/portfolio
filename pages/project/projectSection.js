@@ -2,7 +2,7 @@ import {ProjectCard} from './projectCard'
 import {useState} from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 
-const projects = [
+export const projects = [
   {
     type:["Game"], 
     subType:["PC"], 

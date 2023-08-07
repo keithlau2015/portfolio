@@ -13,6 +13,7 @@ import {
 import Image from 'next/image';
 
 export function ProjectDetailsPopover({owner, type, subType, duty, tech, index}){
+  
   return <>
     <span
       className={`backdrop-blur-sm min-w-[250px] absolute bottom-1 scale-0 transition-all rounded bg-gray-800 bg-opacity-80 p-2 text-xs text-white group-hover:scale-100`}>

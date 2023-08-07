@@ -1,13 +1,13 @@
 import { OneCareer } from "./oneCareer";
 
-export function CareerSection({gotoCB}) {
-    const workingExpEvents = [
-        {eventName:"Karin Group", range:"12/2022 - 12/2023", details:"Analyst Programmer"},
-        {eventName:"Dream Global Entertainment Limited", range:"07/2020 - 09/2022", details:"Cocos Game Development Engineer"},
-        {eventName:"Gameone Group Limited", range:"06/2020 - 07/2022", details:"Senior Programmer"},
-        {eventName:"Graduate from Tamkang University", range:"09/2016 - 06/2020", details:"Innovative Information and Technology Department"}
-    ];
+export const workingExpEvents = [
+    {eventName:"Karin Group", range:"12/2022 - 12/2023", details:"Analyst Programmer"},
+    {eventName:"Dream Global Entertainment Limited", range:"07/2020 - 09/2022", details:"Cocos Game Development Engineer"},
+    {eventName:"Gameone Group Limited", range:"06/2020 - 07/2022", details:"Senior Programmer"},
+    {eventName:"Graduate from Tamkang University", range:"09/2016 - 06/2020", details:"Innovative Information and Technology Department"}
+];
 
+export function CareerSection({gotoCB}) {
     return (<ol className="relative ml-20 border-l border-gray-200 dark:border-gray-700">     
         {
             workingExpEvents.map((item,index)=>{
