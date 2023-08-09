@@ -4,101 +4,94 @@ import { Flipped, Flipper } from 'react-flip-toolkit';
 
 export const projects = [
   {
-    type:["Game"], 
-    subType:["PC"], 
+    type:["Interactive Media"], 
     owner:"Final Year Project Team", 
-    title:"Dungeon Challenger", 
+    title:"Dungeon Challenger",
     description:"Undergrad Final Year Project", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]", 
-    duty:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can.",
+    details:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can.",
     tech:["Unity", "C#", "Blender"],
-    url: ""
+    media:["https://keithlau2015.github.io/portfolio/dc.png"]
   },
   {
-    type:["Game"], 
-    subType:["Moblie"],  
+    type:["Interactive Media"], 
     owner:"Personal", 
     title:"Space Shooter", 
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]", 
-    duty:"My first moblie game, also a challenge for myself finished the game within 1 week. A singleplay 3rd person shooter game, player needed to control the spacecraft to fight obstacle, also player able to get reward through watching ads, and unlock more different playstle spacecraft.",
+    details:"My first moblie game, also a challenge for myself finished the game within 1 week. A singleplay 3rd person shooter game, player needed to control the spacecraft to fight obstacle, also player able to get reward through watching ads, and unlock more different playstle spacecraft.",
     tech:["Unity", "C#", "Blender"],
-    url:"https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"
+    media:["https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"]
   },
   {
-    type:["Game", "Server"], 
-    subType:["Moblie"], 
+    type:["Interactive Media"], 
     owner:"Gameone Group Limited", 
     title:"正版龍虎門",
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]", 
-    duty:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement cooperate designer and artist of this game. In this project, I learn most of the game client-server concept, the game system either the server side and client side and building games for android and ios.",
+    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement cooperate designer and artist of this game. In this project, I learn most of the game client-server concept, the game system either the server side and client side and building games for android and ios.",
     tech:["Unity", "C#", "Java", "MySQL"],
-    url: ""
+    media: []
   },
   {
-    type:["Game", "Server"], 
-    subType:["Moblie"], 
+    type:["Interactive Media"], 
     owner:"Gameone Group Limited", 
     title:"新火鳳燎原亂世英雄",
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]", 
-    duty:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement, patching cooperate designer and artist of this game. In this project I learn alot about hows the patching system work(hotfix in other word) in moblie game and get more known about unity assetsbundle.",
+    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement, patching cooperate designer and artist of this game. In this project I learn alot about hows the patching system work(hotfix in other word) in moblie game and get more known about unity assetsbundle.",
     tech:["Unity", "Lua", "C#", "Java", "Python", "MySQL"],
-    url:"https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"
+    media:["https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"]
   },
   {
-    type:["Game", "Server"], 
-    subType:["Moblie"], 
+    type:["Interactive Media"], 
     owner:"Gameone Group Limited", 
     title:"龍虎門M", 
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]", 
-    duty:"Responsible to development the client side of this game, debugging, optimization, upgrading unity version. This project I get invoking develop a new game, and I get known more about the flow of game development",
+    details:"Responsible to development the client side of this game, debugging, optimization, upgrading unity version. This project I get invoking develop a new game, and I get known more about the flow of game development",
     tech:["Unity", "Lua", "C#"],
-    url:"https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"
+    media:["https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"]
   },
   {
-    type:["Game"], 
-    subType:["AR"], 
+    type:["Interactive Media"], 
     owner:"CIMPTech", 
     title:"Mannings 50th Anniversary Event",
     description:"Interactive Media", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
-    duty:"I as a freenlancer to develop a ar game for Mannings 50th Anniversary Event. This project I learn a lot of developmnet of ar game, also cooperate with installation to finish",
+    details:"I as a freenlancer to develop a ar game for Mannings 50th Anniversary Event. This project I learn a lot of developmnet of ar game, also cooperate with installation to finish",
     tech:["Unity", "C#"],
-    url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
+    media:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
   },
   {
-    type:["Application","Website"], 
-    subType:["AR"], 
+    type:["Application"], 
     owner:"CIMPTech", 
     title:"民坊 AR虛擬現實網路應用程式",
     description:"Interactive Media", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')]",
-    duty:"I as a freenlancer to develop a ar web application for a event.",
+    details:"I as a freenlancer to develop a ar web application for a event.",
     tech:["Nodejs", "Js"],
-    url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
+    media:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
   },
   {
-    type:["Application", "Website"], 
+    type:["Application"], 
     owner:"Karin Group", 
     title:"Leisure and Cultural Services Department Electronic Collection Recording System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')]", 
-    duty:"Invoke a part of develop of Electronic Collection Recording System for Leisure and Cultural Services Department, using Java, framework struts2. Learning a lot of mordern webapplication development",
+    details:"Invoke a part of develop of Electronic Collection Recording System for Leisure and Cultural Services Department, using Java, framework struts2. Learning a lot of mordern webapplication development",
     tech:["Java", "MySQL", "Js"],
-    url: ""
+    media: []
   },
   {
-    type:["Application", "Website"], 
+    type:["Application"], 
     owner:"Karin Group", 
     title:"Department of Health TACO Information System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]",
-    duty:"Invoke a part of develop of Information System for Department of Health TACO, using Java, framework Groovy. Learning a lot of mordern webapplication development",
+    details:"Invoke a part of develop of Information System for Department of Health TACO, using Java, framework Groovy. Learning a lot of mordern webapplication development",
     tech:["Java", "MySQL", "Js"],
-    url: ""
+    media: []
   },
   {
     type:["Utilities"], 
@@ -106,9 +99,9 @@ export const projects = [
     title:"Editor Bootloader", 
     description:"Unity Utilities",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')]",
-    duty:"A Tool for lazy developers(me) who always for get to switch back the init scene while entering the play mode in unity. This project is develop for just one purpose, in unity while enter play mode, will auto load your init scene.",
+    details:"A Tool for lazy developers(me) who always for get to switch back the init scene while entering the play mode in unity. This project is develop for just one purpose, in unity while enter play mode, will auto load your init scene.",
     tech:["C#", "Unity"],
-    url:"https://github.com/keithlau2015/EditorBootloader"
+    media:["https://github.com/keithlau2015/EditorBootloader"]
   },
   {
     type:["Utilities"], 
@@ -116,41 +109,39 @@ export const projects = [
     title:"Bug Report System", 
     description:"Unity Utilities", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]",
-    duty:"A Tool for any game developers searching a way to manage bug reports. The project integrated with trello, and whenever you send the bug report, will auto open a card in your trello board. At the future may support more platform like Google or notion",
+    details:"A Tool for any game developers searching a way to manage bug reports. The project integrated with trello, and whenever you send the bug report, will auto open a card in your trello board. At the future may support more platform like Google or notion",
     tech:["C#", "Unity"],
-    url:"https://github.com/keithlau2015/BugReportSystem"
+    media:["https://github.com/keithlau2015/BugReportSystem"]
   },
   {
-    type:["Game"], 
-    subType:["PC"], 
+    type:["Interactive Media"], 
     owner:"Teamed with ex-colleague", 
     title:"Sky Garden", 
     description:"On Going Game Project", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
-    duty:"I teamed up with ex-colleague. The project still in development, is a RTS singleplayer game",
+    details:"I teamed up with ex-colleague. The project still in development, is a RTS singleplayer game",
     tech:["C#", "Unity"],
-    url: ""
+    media: []
   },
   {
-    type:["Game"], 
-    subType:["PC"], 
+    type:["Interactive Media"], 
     owner:"Personal", 
     title:"Fated Dungeon", 
     description:"On Going Game Project", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
-    duty:"This is a solo game project, still in development",
+    details:"This is a solo game project, still in development",
     tech:["C#", "Unity", "Blender"],
-    url: ""
+    media: []
   },
   {
-    type:["Game", "Server"], 
+    type:["Interactive Media"], 
     owner:"Personal", 
     title:"C# Game Server", 
     description:"Game Server",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')]",
-    duty:"The is a game server project, which I after learn the server side knowledge from Gameone. I wanted to start to code my own game server base.",
+    details:"The is a game server project, which I after learn the server side knowledge from Gameone. I wanted to start to code my own game server base.",
     tech:["C#"],
-    url: "https://github.com/keithlau2015/CSharp_ServerBase"
+    media: ["https://github.com/keithlau2015/CSharp_ServerBase"]
   },
   {
     type:["3D Model"], 
@@ -158,9 +149,9 @@ export const projects = [
     title:"Hello World", 
     description:"3D Model",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')]",
-    duty:"The 3D model project is I following the youtube tutorial to get learn about the basic of blender, and how to render a image in blender",
+    details:"The 3D model project is I following the youtube tutorial to get learn about the basic of blender, and how to render a image in blender",
     tech:["Blender"],
-    url:"https://www.artstation.com/artwork/lRW4NO"
+    media:["https://www.artstation.com/artwork/lRW4NO"]
   },
   {
     type:["3D Model"], 
@@ -168,9 +159,9 @@ export const projects = [
     title:"Lowploy Room", 
     description:"3D Model", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')]",
-    duty:"The 3D model project is for myself to get known more about 3D modeling process, and also learning the lighting and simple render skills",
+    details:"The 3D model project is for myself to get known more about 3D modeling process, and also learning the lighting and simple render skills",
     tech:["Blender"],
-    url:"https://www.artstation.com/artwork/vJqd43"
+    media:["https://www.artstation.com/artwork/vJqd43"]
   },
   {
     type:["Website"], 
@@ -178,9 +169,9 @@ export const projects = [
     title:"Portfolio", 
     description:"Website", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
-    duty:"A portfolio website for myself. Display or record the skills I learn and used in which jobs.",
+    details:"A portfolio website for myself. Display or record the skills I learn and used in which jobs.",
     tech:["Nodejs", "Js", "Tailwind"],
-    url:"https://keithlau2015.github.io/portfolio/"
+    media:["https://keithlau2015.github.io/portfolio/"]
   },
   {
     type:["AI"], 
@@ -188,9 +179,9 @@ export const projects = [
     title:"Sam", 
     description:"AI Vtuber",
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
-    duty:"This a AI project, inspired by \"Neuro-sama\"(createor: vedal)",
+    details:"This a AI project, inspired by \"Neuro-sama\"(createor: vedal)",
     tech:["Python"],
-    url:""
+    media:[]
   },
   // {
   //   type:["Application"], 
@@ -198,13 +189,13 @@ export const projects = [
   //   title:"Social Media Management Tools", 
   //   description:"Application", 
   //   bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
-  //   duty:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
+  //   details:"Create for managing various social media platform, like post the same post to various social media platform in one click, and dashboard for integrate all social media data for analysis",
   //   tech:["Flutter", "Dart"],
   //   url:""
   // },
 ];
 
-const projectFilters = ["Game", "Website", "Application", "Server", "3D Model", "Utilities"]
+const projectFilters = ["Interactive Media", "Application", "3D Model", "Utilities"]
 
 export function ProjectSection({filter, clearFilterCB}) {
   const [projectFilter, setProjectFilter] = useState(filter);
@@ -231,7 +222,7 @@ export function ProjectSection({filter, clearFilterCB}) {
                 </button>,
   
                 projectFilters.map(type => (
-                    <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-1 min-w-[120px] min-h-[40px] max-lg:min-w-[600px] max-md:min-w-[300px]`} onClick={() => handleClickFilter(type)}>
+                    <button className={`mx-3 my-3 bg-amber-500 hover:bg-amber-700 text-white font-bold rounded-full py-1 px-5 min-w-[120px] min-h-[40px] max-lg:min-w-[600px] max-md:min-w-[300px]`} onClick={() => handleClickFilter(type)}>
                         <div className={`project-tab-bar-tab-text`}>
                             {type.toUpperCase()}
                         </div>
@@ -253,13 +244,7 @@ export function ProjectSection({filter, clearFilterCB}) {
             title={project[1].title} 
             description={project[1].description}
             bg={project[1].bg}
-            owner={project[1].owner}
-            type={project[1].type}
-            subType={project[1]?.subType}
-            duty={project[1].duty}
-            tech={project[1]?.tech}
             index={parseInt(index)}
-            url={project[1].url}
           />
         </div>
       </Flipped>

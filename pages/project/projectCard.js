@@ -2,7 +2,7 @@ import { ProjectDetailsPopover } from "./projectDetails";
 import { useRouter } from 'next/router';
 import Link from "next/link";
 
-export function ProjectCard({title, description, bg, owner, type, subType, duty, tech, index, url}) {
+export function ProjectCard({title, description, bg, index}) {
     return (<>
         <Link href={{ pathname: '/project/projectDetailsPage/', query: { index: index } }}>
             <div className={`
