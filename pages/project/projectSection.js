@@ -1,5 +1,5 @@
 import {ProjectCard} from './projectCard'
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import { Flipped, Flipper } from 'react-flip-toolkit';
 
 export const projects = [
@@ -11,7 +11,7 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]", 
     details:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can.",
     tech:["Unity", "C#", "Blender"],
-    media:["https://keithlau2015.github.io/portfolio/dc.png"]
+    media:["https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png"]
   },
   {
     type:["Interactive Media"], 
