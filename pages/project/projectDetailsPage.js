@@ -140,19 +140,17 @@ export default function careerDetailsPage() {
                             {project?.details}
                         </div>
                         {
-                            project?.media?.url.length > 0 
+                            project?.media?.url != "" 
                             &&
                             <div>
                             <div className="text-amber-300 font-bold">Link</div>
-                            <div className="">
-                                {[
-                                    project?.media.url.map(url => (
-                                        <a href={url} className="text-amber-300 italic no-underline hover:underline">
-                                            {url}
+                                <div className="">
+                                    {[
+                                        <a href={project?.media?.url} className="text-amber-300 italic no-underline hover:underline px-2">
+                                            {project?.media?.url}
                                         </a>
-                                    ))
-                                ]}
-                            </div>
+                                    ]}
+                                </div>
                             </div>
                         }
                         <br></br>

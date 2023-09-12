@@ -13,7 +13,7 @@ export const projects = [
     tech:["Unity", "C#", "Blender"],
     media:{
           img:["https://keithlau2015.github.io/portfolio/dc.png"],
-          url:[]
+          url:""
         }
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     tech:["Unity", "C#", "Blender"],
     media:{
           img:["https://keithlau2015.github.io/portfolio/spaceshooter.png"],
-          url:["https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"]
+          url:"https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"
         }
   },
   {
@@ -39,7 +39,7 @@ export const projects = [
     tech:["Unity", "C#", "Java", "MySQL"],
     media: {
           img:["https://keithlau2015.github.io/portfolio/dtg1.png"],
-          url:[]
+          url:""
         }
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     tech:["Unity", "Lua", "C#", "Java", "Python", "MySQL"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/fire.png"],
-        url:["https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"]
+        url:"https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"
       }
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
     tech:["Unity", "Lua", "C#"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/dtg2.png"],
-        url:["https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"]
+        url:"https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"
     }
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
     tech:["Unity", "C#"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/manningsEvent.png"],
-        url:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+        url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
     }
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     tech:["Nodejs", "Js"],
     media:{
         img:["https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg"],
-        url:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+        url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
     }
   },
   {
@@ -104,7 +104,7 @@ export const projects = [
     tech:["Java", "MySQL", "Js"],
     media: {
       img:["https://keithlau2015.github.io/portfolio/logolcsd.png"],
-      url:[]
+      url:""
     }
   },
   {
@@ -117,7 +117,7 @@ export const projects = [
     tech:["Java", "MySQL", "Js"],
     media: {
       img:["https://keithlau2015.github.io/portfolio/DH_logo.png"],
-      url:[]
+      url:""
     }
   },
   {
@@ -130,7 +130,7 @@ export const projects = [
     tech:["C#", "Unity"],
     media:{
       img:["https://keithlau2015.github.io/portfolio/editorbootloader.png"],
-      url:["https://github.com/keithlau2015/EditorBootloader"]
+      url:"https://github.com/keithlau2015/EditorBootloader"
     }
   },
   {
@@ -143,7 +143,7 @@ export const projects = [
     tech:["C#", "Unity"],
     media:{
        img:["https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png"],
-       url:["https://github.com/keithlau2015/BugReportSystem"]
+       url:"https://github.com/keithlau2015/BugReportSystem"
     }
   },
   {
@@ -156,7 +156,7 @@ export const projects = [
     tech:["C#", "Unity"],
     media: {
         img:[],
-        url:[]
+        url:""
     }
   },
   {
@@ -169,7 +169,7 @@ export const projects = [
     tech:["C#", "Unity", "Blender"],
     media: {
       img:[],
-      url:[]
+      url:""
     }
   },
   {
@@ -182,7 +182,7 @@ export const projects = [
     tech:["C#"],
     media: {
         img:["https://keithlau2015.github.io/portfolio/gameserver.png"],
-        url:["https://github.com/keithlau2015/CSharp_ServerBase"]
+        url:"https://github.com/keithlau2015/CSharp_ServerBase"
     }
   },
   {
@@ -195,7 +195,7 @@ export const projects = [
     tech:["Blender"],
     media:{
         img:["https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884"],
-        url:["https://www.artstation.com/artwork/lRW4NO"]
+        url:"https://www.artstation.com/artwork/lRW4NO"
       }
   },
   {
@@ -208,7 +208,7 @@ export const projects = [
     tech:["Blender"],
     media:{
         img:["https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302"],
-        url:["https://www.artstation.com/artwork/vJqd43"]
+        url:"https://www.artstation.com/artwork/vJqd43"
       }
   },
   {
@@ -221,7 +221,7 @@ export const projects = [
     tech:["Nodejs", "Js", "Tailwind"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/portfolioweb.png"],
-        url:["https://keithlau2015.github.io/portfolio/"]
+        url:"https://keithlau2015.github.io/portfolio/"
       }
   },
   {
@@ -234,7 +234,7 @@ export const projects = [
     tech:["Python"],
     media:{
         img:[],
-        url:[]
+        url:""
       }
   },
   // {
