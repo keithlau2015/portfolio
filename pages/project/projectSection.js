@@ -11,7 +11,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dc.png')]", 
     details:"My final year project. A singleplayer first person perspetive with random generated map game, player needed to handle monster, hunger and sanity to survive much level they can.",
     tech:["Unity", "C#", "Blender"],
-    media:["https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png","https://keithlau2015.github.io/portfolio/dc.png"]
+    media:{
+          img:["https://keithlau2015.github.io/portfolio/dc.png"],
+          url:[]
+        }
   },
   {
     type:["Interactive Media"], 
@@ -21,7 +24,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/spaceshooter.png')]", 
     details:"My first moblie game, also a challenge for myself finished the game within 1 week. A singleplay 3rd person shooter game, player needed to control the spacecraft to fight obstacle, also player able to get reward through watching ads, and unlock more different playstle spacecraft.",
     tech:["Unity", "C#", "Blender"],
-    media:["https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"]
+    media:{
+          img:["https://keithlau2015.github.io/portfolio/spaceshooter.png"],
+          url:["https://play.google.com/store/apps/details?id=com.Keith.SpaceShooter"]
+        }
   },
   {
     type:["Interactive Media"], 
@@ -31,7 +37,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]", 
     details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement cooperate designer and artist of this game. In this project, I learn most of the game client-server concept, the game system either the server side and client side and building games for android and ios.",
     tech:["Unity", "C#", "Java", "MySQL"],
-    media: []
+    media: {
+          img:["https://keithlau2015.github.io/portfolio/dtg1.png"],
+          url:[]
+        }
   },
   {
     type:["Interactive Media"], 
@@ -41,7 +50,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]", 
     details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement, patching cooperate designer and artist of this game. In this project I learn alot about hows the patching system work(hotfix in other word) in moblie game and get more known about unity assetsbundle.",
     tech:["Unity", "Lua", "C#", "Java", "Python", "MySQL"],
-    media:["https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"]
+    media:{
+        img:["https://keithlau2015.github.io/portfolio/fire.png"],
+        url:["https://play.google.com/store/apps/details?id=com.gameone.rtp3d&hl=zh_HK&gl=US"]
+      }
   },
   {
     type:["Interactive Media"], 
@@ -51,7 +63,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]", 
     details:"Responsible to development the client side of this game, debugging, optimization, upgrading unity version. This project I get invoking develop a new game, and I get known more about the flow of game development",
     tech:["Unity", "Lua", "C#"],
-    media:["https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"]
+    media:{
+        img:["https://keithlau2015.github.io/portfolio/dtg2.png"],
+        url:["https://play.google.com/store/apps/details?id=com.gameone.dthm2&hl=zh_HK&gl=US"]
+    }
   },
   {
     type:["Interactive Media"], 
@@ -61,7 +76,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
     details:"I as a freenlancer to develop a ar game for Mannings 50th Anniversary Event. This project I learn a lot of developmnet of ar game, also cooperate with installation to finish",
     tech:["Unity", "C#"],
-    media:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+    media:{
+        img:["https://keithlau2015.github.io/portfolio/manningsEvent.png"],
+        url:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+    }
   },
   {
     type:["Application"], 
@@ -71,7 +89,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')]",
     details:"I as a freenlancer to develop a ar web application for a event.",
     tech:["Nodejs", "Js"],
-    media:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+    media:{
+        img:["https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg"],
+        url:["https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"]
+    }
   },
   {
     type:["Application"], 
@@ -81,7 +102,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')]", 
     details:"Invoke a part of develop of Electronic Collection Recording System for Leisure and Cultural Services Department, using Java, framework struts2. Learning a lot of mordern webapplication development",
     tech:["Java", "MySQL", "Js"],
-    media: []
+    media: {
+      img:["https://keithlau2015.github.io/portfolio/logolcsd.png"],
+      url:[]
+    }
   },
   {
     type:["Application"], 
@@ -91,7 +115,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]",
     details:"Invoke a part of develop of Information System for Department of Health TACO, using Java, framework Groovy. Learning a lot of mordern webapplication development",
     tech:["Java", "MySQL", "Js"],
-    media: []
+    media: {
+      img:["https://keithlau2015.github.io/portfolio/DH_logo.png"],
+      url:[]
+    }
   },
   {
     type:["Utilities"], 
@@ -101,7 +128,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/editorbootloader.png')]",
     details:"A Tool for lazy developers(me) who always for get to switch back the init scene while entering the play mode in unity. This project is develop for just one purpose, in unity while enter play mode, will auto load your init scene.",
     tech:["C#", "Unity"],
-    media:["https://github.com/keithlau2015/EditorBootloader"]
+    media:{
+      img:["https://keithlau2015.github.io/portfolio/editorbootloader.png"],
+      url:["https://github.com/keithlau2015/EditorBootloader"]
+    }
   },
   {
     type:["Utilities"], 
@@ -111,7 +141,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png')]",
     details:"A Tool for any game developers searching a way to manage bug reports. The project integrated with trello, and whenever you send the bug report, will auto open a card in your trello board. At the future may support more platform like Google or notion",
     tech:["C#", "Unity"],
-    media:["https://github.com/keithlau2015/BugReportSystem"]
+    media:{
+       img:["https://raw.githubusercontent.com/keithlau2015/BugReportSystem/main/image/sample_result_2.png"],
+       url:["https://github.com/keithlau2015/BugReportSystem"]
+    }
   },
   {
     type:["Interactive Media"], 
@@ -121,7 +154,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
     details:"I teamed up with ex-colleague. The project still in development, is a RTS singleplayer game",
     tech:["C#", "Unity"],
-    media: []
+    media: {
+        img:[],
+        url:[]
+    }
   },
   {
     type:["Interactive Media"], 
@@ -131,7 +167,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
     details:"This is a solo game project, still in development",
     tech:["C#", "Unity", "Blender"],
-    media: []
+    media: {
+      img:[],
+      url:[]
+    }
   },
   {
     type:["Interactive Media"], 
@@ -141,7 +180,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/gameserver.png')]",
     details:"The is a game server project, which I after learn the server side knowledge from Gameone. I wanted to start to code my own game server base.",
     tech:["C#"],
-    media: ["https://github.com/keithlau2015/CSharp_ServerBase"]
+    media: {
+        img:["https://keithlau2015.github.io/portfolio/gameserver.png"],
+        url:["https://github.com/keithlau2015/CSharp_ServerBase"]
+    }
   },
   {
     type:["3D Model"], 
@@ -151,7 +193,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884')]",
     details:"The 3D model project is I following the youtube tutorial to get learn about the basic of blender, and how to render a image in blender",
     tech:["Blender"],
-    media:["https://www.artstation.com/artwork/lRW4NO"]
+    media:{
+        img:["https://cdnb.artstation.com/p/assets/images/images/054/498/103/large/keith-lau-helloworld.jpg?1664694884"],
+        url:["https://www.artstation.com/artwork/lRW4NO"]
+      }
   },
   {
     type:["3D Model"], 
@@ -161,7 +206,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302')]",
     details:"The 3D model project is for myself to get known more about 3D modeling process, and also learning the lighting and simple render skills",
     tech:["Blender"],
-    media:["https://www.artstation.com/artwork/vJqd43"]
+    media:{
+        img:["https://cdna.artstation.com/p/assets/images/images/054/497/918/large/keith-lau-cozyroompartice.jpg?1664694302"],
+        url:["https://www.artstation.com/artwork/vJqd43"]
+      }
   },
   {
     type:["Website"], 
@@ -171,7 +219,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/portfolioweb.png')]",
     details:"A portfolio website for myself. Display or record the skills I learn and used in which jobs.",
     tech:["Nodejs", "Js", "Tailwind"],
-    media:["https://keithlau2015.github.io/portfolio/"]
+    media:{
+        img:["https://keithlau2015.github.io/portfolio/portfolioweb.png"],
+        url:["https://keithlau2015.github.io/portfolio/"]
+      }
   },
   {
     type:["AI"], 
@@ -181,7 +232,10 @@ export const projects = [
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://img.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.jpg?w=1060&t=st=1686197758~exp=1686198358~hmac=9043f879a1201e7eac5e3a0e683c4871c0f68e08bde338c20ade3bb082775a73')]",
     details:"This a AI project, inspired by \"Neuro-sama\"(createor: vedal)",
     tech:["Python"],
-    media:[]
+    media:{
+        img:[],
+        url:[]
+      }
   },
   // {
   //   type:["Application"], 

@@ -126,7 +126,7 @@ export default function careerDetailsPage() {
                         </h2>
                         <div class="flex overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
                             {[
-                                project?.media.map(url => (
+                                project?.media.img.map(url => (
                                     <div class="flex-shrink-0 rounded-full snap-center mx-2">
                                         <img
                                             alt="gallery"
@@ -139,8 +139,25 @@ export default function careerDetailsPage() {
                         <div className="container my-10 mx-auto md:px-6 text-left text-amber-300">
                             {project?.details}
                         </div>
+                        {
+                            project?.media?.url.length > 0 
+                            &&
+                            <div>
+                            <div className="text-amber-300 font-bold">Link</div>
+                            <div className="">
+                                {[
+                                    project?.media.url.map(url => (
+                                        <a href={url} className="text-amber-300 italic no-underline hover:underline">
+                                            {url}
+                                        </a>
+                                    ))
+                                ]}
+                            </div>
+                            </div>
+                        }
+                        <br></br>
                         <Link href={{ pathname: '/'}}>
-                            <div className='flex justify-center items-center'><FontAwesomeIcon icon={faHouse} style={{ fontSize: 20, color: 'rgb(252,211,77)', padding: '0px 5px 0px 5px'}}/></div>
+                            <div className='flex justify-center items-center'><FontAwesomeIcon icon={faHouse} style={{ fontSize: 15, color: 'rgb(255,255,255)', padding: '0px 5px 0px 5px'}}/></div>
                         </Link>
                     </div>
                 </div>
