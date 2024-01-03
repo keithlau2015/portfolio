@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     type:["Application"], 
-    owner:"Karin Group", 
+    owner:"Kepro Solutions Limited", 
     title:"Leisure and Cultural Services Department Electronic Collection Recording System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')]", 
@@ -109,7 +109,7 @@ export const projects = [
   },
   {
     type:["Application"], 
-    owner:"Karin Group", 
+    owner:"Kepro Solutions Limited", 
     title:"Department of Health TACO Information System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]",
