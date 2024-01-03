@@ -124,39 +124,45 @@ export default function careerDetailsPage() {
                         <h2 className="mb-5 text-3xl font-bold text-white text-center py-10">
                             {project?.title}
                         </h2>
-                        <div class="flex items-center justify-center overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
-                            {[
-                                project?.media.img.map(url => (
-                                    <div class="flex-shrink-0 rounded-full snap-center mx-2">
-                                        <img
-                                            alt="gallery"
-                                            class="block w-[350px] h-[250px] rounded-lg object-cover object-center rounded shadow-md shadow-slate-900"
-                                            src={url} />
-                                    </div>
-                                ))
-                            ]}
-                        </div>
-                        <div className="container my-10 mx-auto md:px-6 text-left text-amber-300">
-                            {project?.details}
-                        </div>
-                        {
-                            project?.media?.url != "" 
-                            &&
-                            <div>
-                            <div className="text-amber-300 font-bold">Link</div>
-                                <div className="">
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="col-span-2">
+                                <div class="flex items-center justify-center overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
                                     {[
-                                        <a href={project?.media?.url} className="text-amber-300 italic no-underline hover:underline px-2">
-                                            {project?.media?.url}
-                                        </a>
+                                        project?.media.img.map(url => (
+                                            <div class="flex-shrink-0 rounded-full snap-center mx-2">
+                                                <img
+                                                    alt="gallery"
+                                                    class="block w-[350px] h-[250px] rounded-lg object-cover object-center rounded shadow-md shadow-slate-900"
+                                                    src={url} />
+                                            </div>
+                                        ))
                                     ]}
                                 </div>
                             </div>
-                        }
-                        <br></br>
-                        <Link href={{ pathname: '/'}}>
-                            <div className='flex justify-center items-center'><FontAwesomeIcon icon={faHouse} style={{ fontSize: 15, color: 'rgb(255,255,255)', padding: '0px 5px 0px 5px'}}/></div>
-                        </Link>
+                            <div className="container my-10 mx-auto md:px-6 text-left text-amber-300">
+                                {project?.details}
+                            </div>
+                            {
+                                project?.media?.url != "" 
+                                &&
+                                <div class="col-span-3">
+                                <div className="text-amber-300 font-bold">Link</div>
+                                    <div className="">
+                                        {[
+                                            <a href={project?.media?.url} className="text-amber-300 italic no-underline hover:underline px-2">
+                                                {project?.media?.url}
+                                            </a>
+                                        ]}
+                                    </div>
+                                </div>
+                            }
+                            <br></br>
+                            <div class="col-span-3">
+                                <Link href={{ pathname: '/'}}>
+                                    <div className='flex justify-center items-center'><FontAwesomeIcon icon={faHouse} style={{ fontSize: 15, color: 'rgb(255,255,255)', padding: '0px 5px 0px 5px'}}/></div>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>      
