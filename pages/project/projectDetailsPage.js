@@ -139,8 +139,10 @@ export default function careerDetailsPage() {
                                     ]}
                                 </div>
                             </div>
-                            <div className="container my-10 mx-auto md:px-6 text-left text-amber-300">
-                                {project?.details}
+                            <div class="col-span-3">
+                                <div className="container my-10 mx-auto md:px-6 text-left text-amber-300">
+                                    {project?.details}
+                                </div>
                             </div>
                             {
                                 project?.media?.url != "" 
