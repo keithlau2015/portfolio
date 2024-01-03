@@ -100,7 +100,7 @@ export const projects = [
     title:"Leisure and Cultural Services Department Electronic Collection Recording System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/logolcsd.png')]", 
-    details:"Invoke a part of develop of Electronic Collection Recording System for Leisure and Cultural Services Department, using Java, framework struts2. Learning a lot of mordern webapplication development",
+    details:"Electronic Collection Recording System for Leisure and Cultural Services Department System enhancement and modification. Developed report generation. Using Java, framework struts2, jasper report.",
     tech:["Java", "MySQL", "Js"],
     media: {
       img:["https://keithlau2015.github.io/portfolio/logolcsd.png"],
@@ -113,7 +113,7 @@ export const projects = [
     title:"Department of Health TACO Information System", 
     description:"Application", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/DH_logo.png')]",
-    details:"Invoke a part of develop of Information System for Department of Health TACO, using Java, framework Groovy. Learning a lot of mordern webapplication development",
+    details:"Information System for Department of Health TACO System enhancement and modification. Developed activity log, workflow system, report generation. Using Groovy, jasper report.",
     tech:["Java", "MySQL", "Js"],
     media: {
       img:["https://keithlau2015.github.io/portfolio/DH_logo.png"],
