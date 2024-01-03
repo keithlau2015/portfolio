@@ -124,7 +124,7 @@ export default function careerDetailsPage() {
                         <h2 className="mb-5 text-3xl font-bold text-white text-center py-10">
                             {project?.title}
                         </h2>
-                        <div class="grid grid-cols-3 gap-4">
+                        <div class="grid grid-cols-3 gap-1">
                             <div class="col-span-2">
                                 <div class="flex items-center justify-center overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
                                     {[
