@@ -35,7 +35,7 @@ export const projects = [
     title:"正版龍虎門",
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg1.png')]", 
-    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement cooperate designer and artist of this game. In this project, I learn most of the game client-server concept, the game system either the server side and client side and building games for android and ios.",
+    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement cooperate designer and artist of this game.",
     tech:["Unity", "C#", "Java", "MySQL"],
     media: {
           img:["https://keithlau2015.github.io/portfolio/dtg1.png"],
@@ -48,7 +48,7 @@ export const projects = [
     title:"新火鳳燎原亂世英雄",
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/fire.png')]", 
-    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement, patching cooperate designer and artist of this game. In this project I learn alot about hows the patching system work(hotfix in other word) in moblie game and get more known about unity assetsbundle.",
+    details:"Responsible to maintain the server side & the client side, also responsible continuous the development, enchancement, patching cooperate designer and artist of this game.",
     tech:["Unity", "Lua", "C#", "Java", "Python", "MySQL"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/fire.png"],
@@ -61,7 +61,7 @@ export const projects = [
     title:"龍虎門M", 
     description:"Moblie game", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/dtg2.png')]", 
-    details:"Responsible to development the client side of this game, debugging, optimization, upgrading unity version. This project I get invoking develop a new game, and I get known more about the flow of game development",
+    details:"Responsible to development the client side of this game, debugging, optimization, upgrading unity version.",
     tech:["Unity", "Lua", "C#"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/dtg2.png"],
@@ -74,11 +74,11 @@ export const projects = [
     title:"Mannings 50th Anniversary Event",
     description:"Interactive Media", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://keithlau2015.github.io/portfolio/manningsEvent.png')]",
-    details:"I as a freenlancer to develop a ar game for Mannings 50th Anniversary Event. This project I learn a lot of developmnet of ar game, also cooperate with installation to finish",
+    details:"Using unity and kinect developed an ar game for Mannings 50th Anniversary Event.",
     tech:["Unity", "C#"],
     media:{
         img:["https://keithlau2015.github.io/portfolio/manningsEvent.png"],
-        url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
+        url:"https://cimptech.com/portfolio/mannings/"
     }
   },
   {
@@ -87,11 +87,11 @@ export const projects = [
     title:"民坊 AR虛擬現實網路應用程式",
     description:"Interactive Media", 
     bg:"bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')] hover:bg-[linear-gradient(to_bottom,rgba(253,230,138,0.1),rgba(120,53,15,0.9)),url('https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg')]",
-    details:"I as a freenlancer to develop a ar web application for a event.",
+    details:"Using nodejs and threejs to create an ar web application for comercial event.",
     tech:["Nodejs", "Js"],
     media:{
         img:["https://www.peoplesplace.com.hk/wp-content/uploads/elementor/thumbs/Zone-A-Photo-Taking-oyx0a3ws3l52vhjlrnbj0k3ziy4h2lizqfs47k2idc.jpg"],
-        url:"https://cimptech.com/portfolio/%e8%90%ac%e5%af%a750%e5%91%a8%e5%b9%b4%e3%80%8c%e7%a4%be%e5%8d%80%e5%81%a5%e5%ba%b7%e6%b5%81%e5%8b%95%e6%9c%8d%e5%8b%99%e8%bb%8a%e3%80%8d%e4%ba%92%e5%8b%95%e9%81%8a%e6%88%b2/"
+        url:"https://cimptech.com/portfolio/peoples-place/"
     }
   },
   {
