@@ -124,7 +124,7 @@ export default function careerDetailsPage() {
                         <h2 className="mb-5 text-3xl font-bold text-white text-center py-10">
                             {project?.title}
                         </h2>
-                        <div class="flex overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
+                        <div class="flex items-center justify-center overflow-x-auto overflow-hidden snap-mandatory scroll-auto">
                             {[
                                 project?.media.img.map(url => (
                                     <div class="flex-shrink-0 rounded-full snap-center mx-2">
